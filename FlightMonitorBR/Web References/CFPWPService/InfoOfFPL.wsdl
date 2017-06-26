@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:s0="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:import namespace="http://www.w3.org/2001/XMLSchema" />
+      <s:element name="ReturnWayPointsOfFPL">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="dtPDateOfFlight" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="strPFlightNO" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strPPlaneNO" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strPDepSTN" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strPArrSTN" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strPTableName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReturnWayPointsOfFPLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ReturnWayPointsOfFPLResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReturnInfoOfFPL">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="dtPDateOfFlight" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="strPFlightNO" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strPPlaneNO" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strPDepSTN" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strPArrSTN" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReturnInfoOfFPLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ReturnInfoOfFPLResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </types>
+  <message name="ReturnWayPointsOfFPLSoapIn">
+    <part name="parameters" element="s0:ReturnWayPointsOfFPL" />
+  </message>
+  <message name="ReturnWayPointsOfFPLSoapOut">
+    <part name="parameters" element="s0:ReturnWayPointsOfFPLResponse" />
+  </message>
+  <message name="ReturnInfoOfFPLSoapIn">
+    <part name="parameters" element="s0:ReturnInfoOfFPL" />
+  </message>
+  <message name="ReturnInfoOfFPLSoapOut">
+    <part name="parameters" element="s0:ReturnInfoOfFPLResponse" />
+  </message>
+  <portType name="clsWebServiceOfFPLInfoSoap">
+    <operation name="ReturnWayPointsOfFPL">
+      <input message="s0:ReturnWayPointsOfFPLSoapIn" />
+      <output message="s0:ReturnWayPointsOfFPLSoapOut" />
+    </operation>
+    <operation name="ReturnInfoOfFPL">
+      <input message="s0:ReturnInfoOfFPLSoapIn" />
+      <output message="s0:ReturnInfoOfFPLSoapOut" />
+    </operation>
+  </portType>
+  <binding name="clsWebServiceOfFPLInfoSoap" type="s0:clsWebServiceOfFPLInfoSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="ReturnWayPointsOfFPL">
+      <soap:operation soapAction="http://tempuri.org/ReturnWayPointsOfFPL" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ReturnInfoOfFPL">
+      <soap:operation soapAction="http://tempuri.org/ReturnInfoOfFPL" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="clsWebServiceOfFPLInfo">
+    <port name="clsWebServiceOfFPLInfoSoap" binding="s0:clsWebServiceOfFPLInfoSoap">
+      <soap:address location="http://10.2.104.4/net/Webservice/InfoOfFPL.asmx" />
+    </port>
+  </service>
+</definitions>

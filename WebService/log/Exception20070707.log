@@ -1,0 +1,11 @@
+2007-7-7 15:36:19
+操作数据库错误：关键字 'AND' 附近有语法错误。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetFlightsByFlightNo(D错误函数：eTimeBM d错误函数：eTimeBM, Str
+程序位置：g strDEPSTN, Str
+程序位置：g strARRSTN, Str
+程序位置：g strFlightNo) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 505
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetFlightsByFlightNo(D错误函数：eTimeBM d错误函数：eTimeBM, Str
+程序位置：g strDEPSTN, Str
+程序位置：g strARRSTN, Str
+程序位置：g strFlightNo) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 422
+

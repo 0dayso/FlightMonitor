@@ -1,0 +1,86 @@
+2007-7-1 8:51:59
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.FlightMonitor.FlightMonitorDA.D错误函数：aItemPurviewDAF.GetD错误函数：aItemPurviewByUserId(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\D错误函数：aItemPurviewDAF.cs:行号 76
+   在 AirSoft.FlightMonitor.FlightMonitorBF.D错误函数：aItemPurviewBF.GetD错误函数：aItemPurviewByUserId(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\D错误函数：aItemPurviewBF.cs:行号 67
+
+2007-7-1 8:52:01
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetChangeRecordsByFlightNo(D错误函数：eTimeBM d错误函数：eTimeBM, Str
+程序位置：g strFlightNo, Str
+程序位置：g strChangeReason) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 201
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetChangeRecordsByFlightNo(D错误函数：eTimeBM d错误函数：eTimeBM, Str
+程序位置：g strFlightNo, Str
+程序位置：g strChangeReason) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 172
+
+2007-7-1 8:53:41
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.FlightMonitor.FlightMonitorDA.D错误函数：aItemPurviewDAF.GetD错误函数：aItemPurviewByUserId(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\D错误函数：aItemPurviewDAF.cs:行号 76
+   在 AirSoft.FlightMonitor.FlightMonitorBF.D错误函数：aItemPurviewBF.GetD错误函数：aItemPurviewByUserId(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\D错误函数：aItemPurviewBF.cs:行号 67
+
+2007-7-1 8:54:07
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.FlightMonitor.FlightMonitorDA.D错误函数：aItemPurviewDAF.GetD错误函数：aItemPurviewByUserId(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\D错误函数：aItemPurviewDAF.cs:行号 76
+   在 AirSoft.FlightMonitor.FlightMonitorBF.D错误函数：aItemPurviewBF.GetD错误函数：aItemPurviewByUserId(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\D错误函数：aItemPurviewBF.cs:行号 67
+
+2007-7-1 16:06:48
+操作数据库错误：参数化查询 '(@PARM_StartTime char(19),@PARM_EndTime char(19),@PARM_cnvcLONG_' 需要参数 @PARM_cnvcLONG_REG，但未提供该参数。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAircraftFlights(D错误函数：eTimeBM d错误函数：eTimeBM, Str
+程序位置：g strLONG_REG) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 441
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAircraftFlights(D错误函数：eTimeBM d错误函数：eTimeBM, Str
+程序位置：g strLONG_REG) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 368
+
+2007-7-1 16:06:48
+操作数据库错误：参数化查询 '(@PARM_StartTime char(19),@PARM_EndTime char(19),@PARM_cnvcLONG_' 需要参数 @PARM_cnvcLONG_REG，但未提供该参数。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAircraftFlights(D错误函数：eTimeBM d错误函数：eTimeBM, Str
+程序位置：g strLONG_REG) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 441
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAircraftFlights(D错误函数：eTimeBM d错误函数：eTimeBM, Str
+程序位置：g strLONG_REG) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 368
+
+2007-7-1 17:35:22
+操作数据库错误：被准备语句 '(@PARM_cndtStdDate datetime,@PARM_cnvcFlightNo varchar(50),@PARM' 需要参数 @PARM_cndtStdDate，但未提供该参数。
+在 AirSoft.FlightMonitor.FlightMonitorDA.ComputerPlanDAF.GetComputerFlightPlan(Str
+程序位置：g strD错误函数：e, Str
+程序位置：g strFlightNo, Str
+程序位置：g strDepstn, Str
+程序位置：g strArrstn) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\ComputerPlanDAF.cs:行号 52
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ComputerPlanBF.GetComputerFlightPlan(Str
+程序位置：g strD错误函数：e, Str
+程序位置：g strFlightNo, Str
+程序位置：g strDepstn, Str
+程序位置：g strArrstn) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\ComputerPlanBF.cs:行号 35
+
+2007-7-1 17:38:29
+业务逻辑处理错误：索引超出了数组界限。
+   在 AirSoft.FlightMonitor.FlightMonitorDA.AirportInfoDAF.GetAirportInforByThreeCode(Str
+程序位置：g strThreeCode) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\AirportInfoDAF.cs:行号 66
+   在 AirSoft.FlightMonitor.FlightMonitorBF.AirportInforBF.GetAirportInforByThreeCode(Str
+程序位置：g strThreeCode) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\AirportInforBF.cs:行号 57
+
+2007-7-1 17:39:48
+业务逻辑处理错误：索引超出了数组界限。
+   在 AirSoft.FlightMonitor.FlightMonitorDA.AirportInfoDAF.GetAirportInforByThreeCode(Str
+程序位置：g strThreeCode) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\AirportInfoDAF.cs:行号 66
+   在 AirSoft.FlightMonitor.FlightMonitorBF.AirportInforBF.GetAirportInforByThreeCode(Str
+程序位置：g strThreeCode) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\AirportInforBF.cs:行号 57
+
+2007-7-1 17:41:18
+业务逻辑处理错误：索引超出了数组界限。
+   在 AirSoft.FlightMonitor.FlightMonitorDA.AirportInfoDAF.GetAirportInforByThreeCode(Str
+程序位置：g strThreeCode) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\AirportInfoDAF.cs:行号 66
+   在 AirSoft.FlightMonitor.FlightMonitorBF.AirportInforBF.GetAirportInforByThreeCode(Str
+程序位置：g strThreeCode) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\AirportInforBF.cs:行号 57
+
+2007-7-1 17:43:35
+业务逻辑处理错误：索引超出了数组界限。
+   在 AirSoft.FlightMonitor.FlightMonitorDA.AirportInfoDAF.GetAirportInforByThreeCode(Str
+程序位置：g strThreeCode) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\AirportInfoDAF.cs:行号 66
+   在 AirSoft.FlightMonitor.FlightMonitorBF.AirportInforBF.GetAirportInforByThreeCode(Str
+程序位置：g strThreeCode) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\AirportInforBF.cs:行号 57
+
+2007-7-1 17:44:03
+业务逻辑处理错误：索引超出了数组界限。
+   在 AirSoft.FlightMonitor.FlightMonitorDA.AirportInfoDAF.GetAirportInforByThreeCode(Str
+程序位置：g strThreeCode) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\AirportInfoDAF.cs:行号 66
+   在 AirSoft.FlightMonitor.FlightMonitorBF.AirportInforBF.GetAirportInforByThreeCode(Str
+程序位置：g strThreeCode) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\AirportInforBF.cs:行号 57
+

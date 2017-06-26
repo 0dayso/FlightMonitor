@@ -1,0 +1,55 @@
+2007-6-21 9:55:48
+操作数据库错误：参数化查询 '(@PARM_cncDATOP char(10),@PARM_cnvcFLTID varchar(8),@PARM_cncDEP' 需要参数 @PARM_cnvcINFORM_PERSON，但未提供该参数。
+在 AirSoft.FlightMonitor.FlightMonitorDA.VIPDAF.InsertVIP(VIPBM vipBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\VIPDAF.cs:行号 129
+   在 AirSoft.FlightMonitor.FlightMonitorBF.VIPBF.InsertVIP(VIPBM vipBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\VIPBF.cs:行号 122
+
+2007-6-21 9:57:25
+操作数据库错误：参数化查询 '(@PARM_cncDATOP char(10),@PARM_cnvcFLTID varchar(8),@PARM_cncDEP' 需要参数 @PARM_cnvcINFORM_PERSON，但未提供该参数。
+在 AirSoft.FlightMonitor.FlightMonitorDA.VIPDAF.InsertVIP(VIPBM vipBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\VIPDAF.cs:行号 129
+   在 AirSoft.FlightMonitor.FlightMonitorBF.VIPBF.InsertVIP(VIPBM vipBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\VIPBF.cs:行号 122
+
+2007-6-21 9:58:02
+操作数据库错误：参数化查询 '(@PARM_cncDATOP char(10),@PARM_cnvcFLTID varchar(8),@PARM_cncDEP' 需要参数 @PARM_cnvcINFORM_PERSON，但未提供该参数。
+在 AirSoft.FlightMonitor.FlightMonitorDA.VIPDAF.InsertVIP(VIPBM vipBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\VIPDAF.cs:行号 129
+   在 AirSoft.FlightMonitor.FlightMonitorBF.VIPBF.InsertVIP(VIPBM vipBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\VIPBF.cs:行号 122
+
+2007-6-21 10:11:25
+操作数据库错误：参数化查询 '(@PARM_cnvcUserID nvarchar(20),@PARM_cnvcOldFLTID nvarchar(8),@P' 需要参数 @PARM_cncSTD，但未提供该参数。
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.Insert(ChangeRecordBM changeRecordBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 168
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.Insert(ChangeRecordBM changeRecordBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 145
+
+2007-6-21 10:12:22
+操作数据库错误：参数化查询 '(@PARM_cnvcUserID nvarchar(20),@PARM_cnvcOldFLTID nvarchar(8),@P' 需要参数 @PARM_cncSTD，但未提供该参数。
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.Insert(ChangeRecordBM changeRecordBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 168
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.Insert(ChangeRecordBM changeRecordBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 145
+
+2007-6-21 10:18:05
+操作数据库错误：参数化查询 '(@PARM_cnvcUserID nvarchar(20),@PARM_cnvcOldFLTID nvarchar(8),@P' 需要参数 @PARM_cncSTD，但未提供该参数。
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.Insert(ChangeRecordBM changeRecordBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 168
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.Insert(ChangeRecordBM changeRecordBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 145
+
+2007-6-21 11:00:43
+操作数据库错误：参数化查询 '(@PARM_cnvcPOSITION nvarchar(100),@PARM_cncCLASS char(1),@PARM_c' 需要参数 @PARM_cncDATOP，但未提供该参数。
+在 AirSoft.FlightMonitor.FlightMonitorDA.VIPDAF.Upd错误函数：eVipInfor(VIPBM vipBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\VIPDAF.cs:行号 98
+   在 AirSoft.FlightMonitor.FlightMonitorBF.VIPBF.Upd错误函数：eVipInfor(VIPBM vipBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\VIPBF.cs:行号 96
+
+2007-6-21 11:01:23
+操作数据库错误：参数化查询 '(@PARM_cnvcPOSITION nvarchar(100),@PARM_cncCLASS char(1),@PARM_c' 需要参数 @PARM_cncDATOP，但未提供该参数。
+在 AirSoft.FlightMonitor.FlightMonitorDA.VIPDAF.Upd错误函数：eVipInfor(VIPBM vipBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\VIPDAF.cs:行号 98
+   在 AirSoft.FlightMonitor.FlightMonitorBF.VIPBF.Upd错误函数：eVipInfor(VIPBM vipBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\VIPBF.cs:行号 96
+
+2007-6-21 13:44:58
+操作数据库错误：参数化查询 '(@PARM_cnbDeleteTag bit,@PARM_cncDATOP char(10),@PARM_cnvcFLTID ' 需要参数 @PARM_cnvcNAME，但未提供该参数。
+在 AirSoft.FlightMonitor.FlightMonitorDA.VIPDAF.Upd错误函数：eDeleteTag(VIPBM vipBM, Int32 iDeleteTag) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\VIPDAF.cs:行号 249
+   在 AirSoft.FlightMonitor.FlightMonitorBF.VIPBF.Upd错误函数：eDeleteTag(VIPBM vipBM, Int32 iDeleteTag) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\VIPBF.cs:行号 266
+
+2007-6-21 14:45:27
+操作数据库错误：参数化查询 '(@PARM_cnvcUserID nvarchar(20),@PARM_cnvcOldFLTID nvarchar(8),@P' 需要参数 @PARM_cnvcUserID，但未提供该参数。
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.Insert(ChangeRecordBM changeRecordBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 168
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.Insert(ChangeRecordBM changeRecordBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 145
+
+2007-6-21 14:48:07
+操作数据库错误：参数化查询 '(@PARM_cnvcUserID nvarchar(20),@PARM_cnvcOldFLTID nvarchar(8),@P' 需要参数 @PARM_cnvcUserID，但未提供该参数。
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.Insert(ChangeRecordBM changeRecordBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 168
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.Insert(ChangeRecordBM changeRecordBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 145
+

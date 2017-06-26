@@ -1,0 +1,5 @@
+2007-7-9 10:38:25
+操作数据库错误：超时时间已到。在操作完成之前超时时间已过或服务器未响应。
+在 AirSoft.FlightMonitor.FlightMonitorDA.D错误函数：aItemPurviewDAF.GetVisibleD错误函数：aItem(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\D错误函数：aItemPurviewDAF.cs:行号 277
+   在 AirSoft.FlightMonitor.FlightMonitorBF.D错误函数：aItemPurviewBF.GetVisibleD错误函数：aItem(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\D错误函数：aItemPurviewBF.cs:行号 282
+

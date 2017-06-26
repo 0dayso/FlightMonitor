@@ -1,0 +1,48 @@
+2014-05-26 17:34:57
+操作数据库错误：不能将值 NULL 插入列 'cniRecordNo'，表 'dbFlightMonitor_Three.dbo.tbFlightChangeRecord'；列不允许有空值。INSERT 失败。
+语句已终止。
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.Insert(ChangeRecordBM changeRecordBM) 位置 E:\Cod
+程序位置：g\FlightMonitor_Code\FlightMonitorDA\ChangeRecordDAF.cs:行号 181
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.Insert(ChangeRecordBM changeRecordBM) 位置 E:\Cod
+程序位置：g\FlightMonitor_Code\FlightMonitorBF\ChangeRecordBF.cs:行号 174
+
+2014-05-26 17:35:08
+操作数据库错误：不能将值 NULL 插入列 'cniRecordNo'，表 'dbFlightMonitor_Three.dbo.tbFlightChangeRecord'；列不允许有空值。INSERT 失败。
+语句已终止。
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.Insert(ChangeRecordBM changeRecordBM) 位置 E:\Cod
+程序位置：g\FlightMonitor_Code\FlightMonitorDA\ChangeRecordDAF.cs:行号 181
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.Insert(ChangeRecordBM changeRecordBM) 位置 E:\Cod
+程序位置：g\FlightMonitor_Code\FlightMonitorBF\ChangeRecordBF.cs:行号 174
+
+2014-05-26 17:35:13
+操作数据库错误：不能将值 NULL 插入列 'cniRecordNo'，表 'dbFlightMonitor_Three.dbo.tbFlightChangeRecord'；列不允许有空值。INSERT 失败。
+语句已终止。
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.Insert(ChangeRecordBM changeRecordBM) 位置 E:\Cod
+程序位置：g\FlightMonitor_Code\FlightMonitorDA\ChangeRecordDAF.cs:行号 181
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.Insert(ChangeRecordBM changeRecordBM) 位置 E:\Cod
+程序位置：g\FlightMonitor_Code\FlightMonitorBF\ChangeRecordBF.cs:行号 174
+
+2014-05-26 17:36:03
+操作数据库错误：不能将值 NULL 插入列 'cniRecordNo'，表 'dbFlightMonitor_Three.dbo.tbFlightChangeRecord'；列不允许有空值。INSERT 失败。
+语句已终止。
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.Insert(ChangeRecordBM changeRecordBM) 位置 E:\Cod
+程序位置：g\FlightMonitor_Code\FlightMonitorDA\ChangeRecordDAF.cs:行号 181
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.Insert(ChangeRecordBM changeRecordBM) 位置 E:\Cod
+程序位置：g\FlightMonitor_Code\FlightMonitorBF\ChangeRecordBF.cs:行号 174
+
+2014-05-26 17:39:10
+操作数据库错误：不能将值 NULL 插入列 'cniRecordNo'，表 'dbFlightMonitor_Three.dbo.tbFlightChangeRecord'；列不允许有空值。INSERT 失败。
+语句已终止。
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.Insert(ChangeRecordBM changeRecordBM) 位置 E:\Cod
+程序位置：g\FlightMonitor_Code\FlightMonitorDA\ChangeRecordDAF.cs:行号 181
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.Insert(ChangeRecordBM changeRecordBM) 位置 E:\Cod
+程序位置：g\FlightMonitor_Code\FlightMonitorBF\ChangeRecordBF.cs:行号 174
+
+2014-05-26 17:42:12
+操作数据库错误：不能将值 NULL 插入列 'cniRecordNo'，表 'dbFlightMonitor_Three.dbo.tbFlightChangeRecord'；列不允许有空值。INSERT 失败。
+语句已终止。
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.Insert(ChangeRecordBM changeRecordBM) 位置 E:\Cod
+程序位置：g\FlightMonitor_Code\FlightMonitorDA\ChangeRecordDAF.cs:行号 181
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.Insert(ChangeRecordBM changeRecordBM) 位置 E:\Cod
+程序位置：g\FlightMonitor_Code\FlightMonitorBF\ChangeRecordBF.cs:行号 174
+

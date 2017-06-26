@@ -1,0 +1,809 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2D17A3B3-65FC-41D1-9D48-A79EE9ECB280}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AirSoft.FlightMonitor.FlightMonitorClient</RootNamespace>
+    <AssemblyName>AirSoft.FlightMonitor.FlightMonitorClient</AssemblyName>
+    <ManifestCertificateThumbprint>CEA57778625CC6A3D952555D773F0AEB5797D318</ManifestCertificateThumbprint>
+    <ManifestKeyFile>FlightMonitorClient_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <PublishUrl>http://localhost/AirSoft.FlightMonitor.FlightMonitorClient/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AirSoft.Public.SystemFramework, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\AirSoft.Public.SystemFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="FarPoint.CalcEngine, Version=2.5.2011.2005, Culture=neutral, PublicKeyToken=327c3516b1b18457" />
+    <Reference Include="FarPoint.Excel, Version=2.5.2011.2005, Culture=neutral, PublicKeyToken=327c3516b1b18457" />
+    <Reference Include="FarPoint.PluginCalendar.WinForms, Version=2.5.2007.2005, Culture=neutral, PublicKeyToken=327c3516b1b18457" />
+    <Reference Include="FarPoint.Win, Version=2.5.2007.2005, Culture=neutral, PublicKeyToken=327c3516b1b18457" />
+    <Reference Include="FarPoint.Win.Spread, Version=2.5.2007.2005, Culture=neutral, PublicKeyToken=327c3516b1b18457" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppUpdater.cs" />
+    <Compile Include="ConfigSettings.cs" />
+    <Compile Include="DataTableDeserialization.cs" />
+    <Compile Include="fmAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmAccount.Designer.cs">
+      <DependentUpon>fmAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmAccountInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmAccountInfo.Designer.cs">
+      <DependentUpon>fmAccountInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmACMISC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmACMISC.Designer.cs">
+      <DependentUpon>fmACMISC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmAircraftFlights.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmAircraftFlights.Designer.cs">
+      <DependentUpon>fmAircraftFlights.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmArrangeGate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmArrangeGate.Designer.cs">
+      <DependentUpon>fmArrangeGate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmBalanceStatistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmBalanceStatistics.Designer.cs">
+      <DependentUpon>fmBalanceStatistics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmChangeData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmChangeData.Designer.cs">
+      <DependentUpon>fmChangeData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmCommanderInforList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmCommanderInforList.Designer.cs">
+      <DependentUpon>fmCommanderInforList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmCommderInfor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmCommderInfor.Designer.cs">
+      <DependentUpon>fmCommderInfor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmComputerPlan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmComputerPlan.Designer.cs">
+      <DependentUpon>fmComputerPlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmCrewSignIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmCrewSignIn.Designer.cs">
+      <DependentUpon>fmCrewSignIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmCrewSignTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmCrewSignTime.Designer.cs">
+      <DependentUpon>fmCrewSignTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmDispatchSheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmDispatchSheet.Designer.cs">
+      <DependentUpon>fmDispatchSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmEditPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmEditPassword.Designer.cs">
+      <DependentUpon>fmEditPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmFlightSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmFlightSchedule.Designer.cs">
+      <DependentUpon>fmFlightSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmFlightWatch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmFlightWatch.Designer.cs">
+      <DependentUpon>fmFlightWatch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmGanttView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="fmGanttView.Designer.cs">
+      <DependentUpon>fmGanttView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmGateInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmGateInfo.Designer.cs">
+      <DependentUpon>fmGateInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmGuaranteeRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmGuaranteeRecord.Designer.cs">
+      <DependentUpon>fmGuaranteeRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmMaintenCheckPax.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmMaintenCheckPax.Designer.cs">
+      <DependentUpon>fmMaintenCheckPax.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmDataItemPurview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmDataItemPurview.Designer.cs">
+      <DependentUpon>fmDataItemPurview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmDataItemView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmDataItemView.Designer.cs">
+      <DependentUpon>fmDataItemView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmDisplayCondition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmDisplayCondition.Designer.cs">
+      <DependentUpon>fmDisplayCondition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmFlightGuarantee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmFlightGuarantee.Designer.cs">
+      <DependentUpon>fmFlightGuarantee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmLogOn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmLogOn.Designer.cs">
+      <DependentUpon>fmLogOn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmMaintenFuel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmMaintenFuel.Designer.cs">
+      <DependentUpon>fmMaintenFuel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmMaintenPaxNameList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmMaintenPaxNameList.Designer.cs">
+      <DependentUpon>fmMaintenPaxNameList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmMaintenList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmMaintenList.Designer.cs">
+      <DependentUpon>fmMaintenList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmMaintenMutiLineText.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmMaintenMutiLineText.Designer.cs">
+      <DependentUpon>fmMaintenMutiLineText.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmMaintenTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmMaintenTime.Designer.cs">
+      <DependentUpon>fmMaintenTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmMaintenTOFF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmMaintenTOFF.Designer.cs">
+      <DependentUpon>fmMaintenTOFF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmMaintenTransitPax.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmMaintenTransitPax.Designer.cs">
+      <DependentUpon>fmMaintenTransitPax.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmMaintenVIP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmMaintenVIP.Designer.cs">
+      <DependentUpon>fmMaintenVIP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmMaitenSingleText.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmMaitenSingleText.Designer.cs">
+      <DependentUpon>fmMaitenSingleText.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmMaintenTDWN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmMaintenTDWN.Designer.cs">
+      <DependentUpon>fmMaintenTDWN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmMDIMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmMDIMain.Designer.cs">
+      <DependentUpon>fmMDIMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmMaintenInGate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmMaintenInGate.Designer.cs">
+      <DependentUpon>fmMaintenInGate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmMenuPurview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmMenuPurview.Designer.cs">
+      <DependentUpon>fmMenuPurview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmPositionInfor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmPositionInfor.Designer.cs">
+      <DependentUpon>fmPositionInfor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmPostionManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmPostionManagement.Designer.cs">
+      <DependentUpon>fmPostionManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmQueryFlight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmQueryFlight.Designer.cs">
+      <DependentUpon>fmQueryFlight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmQueryPAX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmQueryPAX.Designer.cs">
+      <DependentUpon>fmQueryPAX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmRelease.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmRelease.Designer.cs">
+      <DependentUpon>fmRelease.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmSelectUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmSelectUsers.Designer.cs">
+      <DependentUpon>fmSelectUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmSetPosition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmSetPosition.Designer.cs">
+      <DependentUpon>fmSetPosition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmStandardItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmStandardItem.designer.cs">
+      <DependentUpon>fmStandardItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmStationgList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmStationgList.Designer.cs">
+      <DependentUpon>fmStationgList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmStationInfor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmStationInfor.Designer.cs">
+      <DependentUpon>fmStationInfor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmStatisticPax.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmStatisticPax.Designer.cs">
+      <DependentUpon>fmStatisticPax.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmStewardSignIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmStewardSignIn.Designer.cs">
+      <DependentUpon>fmStewardSignIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmStewardSignTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmStewardSignTime.Designer.cs">
+      <DependentUpon>fmStewardSignTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmSurpportInfor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmSurpportInfor.Designer.cs">
+      <DependentUpon>fmSurpportInfor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmSystemPrompt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmSystemPrompt.Designer.cs">
+      <DependentUpon>fmSystemPrompt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmVersion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmVersion.Designer.cs">
+      <DependentUpon>fmVersion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmVIPInfor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmVIPInfor.Designer.cs">
+      <DependentUpon>fmVIPInfor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Node.cs" />
+    <Compile Include="NodeList.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="fmAccount.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmAccountInfo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmAccountInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmACMISC.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmACMISC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmAircraftFlights.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmAircraftFlights.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmArrangeGate.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmArrangeGate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmBalanceStatistics.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmBalanceStatistics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmChangeData.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmChangeData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmCommanderInforList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmCommanderInforList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmCommderInfor.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmCommderInfor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmComputerPlan.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmComputerPlan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmCrewSignIn.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmCrewSignIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmCrewSignTime.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmCrewSignTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmDispatchSheet.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmDispatchSheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmEditPassword.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmEditPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmFlightSchedule.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmFlightSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmFlightWatch.resx">
+      <DependentUpon>fmFlightWatch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmGanttView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmGanttView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmGateInfo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmGateInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmGuaranteeRecord.resx">
+      <DependentUpon>fmGuaranteeRecord.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmMaintenCheckPax.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmMaintenCheckPax.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmDataItemPurview.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmDataItemPurview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmDataItemView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmDataItemView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmDisplayCondition.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmDisplayCondition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmFlightGuarantee.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmFlightGuarantee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmLogOn.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmLogOn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmMaintenFuel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmMaintenFuel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmMaintenPaxNameList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmMaintenPaxNameList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmMaintenList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmMaintenList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmMaintenMutiLineText.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmMaintenMutiLineText.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmMaintenTime.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmMaintenTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmMaintenTOFF.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmMaintenTOFF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmMaintenTransitPax.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmMaintenTransitPax.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmMaintenVIP.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmMaintenVIP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmMaitenSingleText.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmMaitenSingleText.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmMaintenTDWN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmMaintenTDWN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmMDIMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmMDIMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmMaintenInGate.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmMaintenInGate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmMenuPurview.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmMenuPurview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmPositionInfor.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmPositionInfor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmPostionManagement.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmPostionManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmQueryFlight.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmQueryFlight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmQueryPAX.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmQueryPAX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmRelease.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmRelease.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmSelectUsers.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmSelectUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmSetPosition.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmSetPosition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmStandardItem.resx">
+      <DependentUpon>fmStandardItem.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmStationgList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmStationgList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmStationInfor.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmStationInfor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmStatisticPax.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmStatisticPax.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmStewardSignIn.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmStewardSignIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmStewardSignTime.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmStewardSignTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmSurpportInfor.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmSurpportInfor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmSystemPrompt.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmSystemPrompt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmVersion.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmVersion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmVIPInfor.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmVIPInfor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmQueryGate.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmQueryGate.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\PaxService\PaxService.wsdl" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="fmQueryGate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmQueryGate.Designer.cs">
+      <DependentUpon>fmQueryGate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SpreadGrid.cs" />
+    <Compile Include="Validator.cs" />
+    <Compile Include="Web References\FlightService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\FocService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\PaxService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\PublicService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="XmlFiles.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FlightMonitorBF\FlightMonitorBF.csproj">
+      <Project>{0EFC225A-B697-44D2-B1AE-F857FC91784D}</Project>
+      <Name>FlightMonitorBF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FlightMonitorBM\FlightMonitorBM.csproj">
+      <Project>{EF706B9B-7B15-48D9-9A8B-3082D41B6579}</Project>
+      <Name>FlightMonitorBM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FlightMonitorDA\FlightMonitorDA.csproj">
+      <Project>{15267F1B-4788-4306-9993-CC6B731F8013}</Project>
+      <Name>FlightMonitorDA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PublicService\PublicService.csproj">
+      <Project>{BB1E7232-B691-4370-BD83-E0A5E44083E5}</Project>
+      <Name>PublicService</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://FMSSQLDB.hna.net/FocService/FocService.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\FocService\</RelPath>
+      <UpdateFromURL>http://FMSSQLDB.hna.net/FocService/FocService.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>AirSoft_FlightMonitor_FlightMonitorClient_FocService_FocService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://10.2.104.14/FlightMonitor/Service.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\FlightService\</RelPath>
+      <UpdateFromURL>http://10.2.104.14/FlightMonitor/Service.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>AirSoft_FlightMonitor_FlightMonitorClient_FlightService_Service</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://10.2.104.16/NewPaxService/PaxService.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\PaxService\</RelPath>
+      <UpdateFromURL>http://10.2.104.16/NewPaxService/PaxService.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>AirSoft_FlightMonitor_FlightMonitorClient_PaxService_PaxService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://10.2.104.5/publicservice/publicservice.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\PublicService\</RelPath>
+      <UpdateFromURL>http://10.2.104.5/publicservice/publicservice.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>AirSoft_FlightMonitor_FlightMonitorClient_PublicService_PublicService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\PaxService\PaxService.disco" />
+    <None Include="Web References\PaxService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\About.ico" />
+    <None Include="Web References\FlightService\Service.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\FlightService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\FlightService\Service.disco" />
+    <None Include="Web References\PublicService\publicservice.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\PublicService\publicservice.disco" />
+    <None Include="Web References\PublicService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Normal.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="FlightMonitorClient_TemporaryKey.pfx" />
+    <None Include="Resources\Splash.gif" />
+    <None Include="Web References\FocService\FocService.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\FocService\FocService.disco" />
+    <None Include="Web References\FocService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

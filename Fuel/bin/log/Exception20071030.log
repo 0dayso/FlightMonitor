@@ -1,0 +1,5 @@
+2007-10-30 8:47:48
+操作数据库错误：用户 'fms' 登录失败。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetFlightsBySt错误函数：ion(D错误函数：eTimeBM d错误函数：eTimeBM, St错误函数：ionBM st错误函数：ionBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 112
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetFlightsBySt错误函数：ion(D错误函数：eTimeBM d错误函数：eTimeBM, St错误函数：ionBM st错误函数：ionBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 96
+

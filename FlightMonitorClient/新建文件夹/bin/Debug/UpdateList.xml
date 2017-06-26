@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="gb2312"?>
+<AutoUpdater>
+  <description>Application autoUpdate</description>
+  <Updater>
+	<Url>http://10.2.104.13/SoftUpdate/</Url>
+	<LastUpdateTime>2009-12-01</LastUpdateTime>
+  </Updater>
+  <Application applicationId="ItemSoft">
+    <EntryPoint>ItemSoft.exe</EntryPoint>
+    <Location>.</Location>
+	<Version>3.0.0.0</Version>
+  </Application>
+  <Files>
+	   <File Ver="4.0.0.0" Name="AirSoft.FlightMonitor.FlightMonitorBF.dll" />
+	   <File Ver="4.0.0.0" Name="AirSoft.FlightMonitor.FlightMonitorBM.dll"/>
+	   <File Ver="4.0.0.0" Name="AirSoft.FlightMonitor.FlightMonitorBR.dll"/>
+	   <File Ver="4.0.0.0" Name="AirSoft.FlightMonitor.FlightMonitorClient.exe"/>
+	   <File Ver="4.0.0.0" Name="AirSoft.FlightMonitor.FlightMonitorClient.exe.config"/>
+	   <File Ver="4.0.0.0" Name="AirSoft.FlightMonitor.FlightMonitorDA.dll"/>
+	   <File Ver="4.0.0.0" Name="AirSoft.Public.DataHelper.dll"/>
+	   <File Ver="4.0.0.0" Name="AirSoft.Public.SystemFramework.dll"/>
+	   <File Ver="4.0.0.0" Name="ICSharpCode.SharpZipLib.dll"/>
+	   <File Ver="4.0.0.0" Name="SharpZipLib.dll"/>
+	   <File Ver="4.0.0.0" Name="UpdateList.xml"/>
+  </Files>
+</AutoUpdater>

@@ -1,0 +1,33 @@
+2007-6-22 14:25:58
+操作数据库错误：关键字 'SELECT' 附近有语法错误。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetPaxNameList(ChangeLegsBM changeLegsBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 261
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetPaxNameList(ChangeLegsBM changeLegsBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 218
+
+2007-6-22 14:26:45
+操作数据库错误：关键字 'SELECT' 附近有语法错误。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetPaxNameList(ChangeLegsBM changeLegsBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 261
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetPaxNameList(ChangeLegsBM changeLegsBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 218
+
+2007-6-22 14:28:40
+操作数据库错误：列名 'cniIsAutoSaveCheckPaxNameList' 无效。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetPaxNameList(ChangeLegsBM changeLegsBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 261
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetPaxNameList(ChangeLegsBM changeLegsBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 218
+
+2007-6-22 16:30:31
+操作数据库错误：关键字 'WHERE' 附近有语法错误。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.Upd错误函数：eGuaranteeInfor(Ma
+程序位置：tenGuaranteeInforBM ma
+程序位置：tenGuaranteeInforBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 141
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.Upd错误函数：eGuaranteeInfor(Ma
+程序位置：tenGuaranteeInforBM ma
+程序位置：tenGuaranteeInforBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 120
+
+2007-6-22 16:31:33
+操作数据库错误：关键字 'WHERE' 附近有语法错误。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.Upd错误函数：eGuaranteeInfor(Ma
+程序位置：tenGuaranteeInforBM ma
+程序位置：tenGuaranteeInforBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 141
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.Upd错误函数：eGuaranteeInfor(Ma
+程序位置：tenGuaranteeInforBM ma
+程序位置：tenGuaranteeInforBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 120
+

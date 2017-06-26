@@ -1,0 +1,24 @@
+2014-7-23 11:10:26
+操作数据库错误：违反了 PRIMARY KEY 约束 'PK_tbGuaranteeRecordCaption'。不能在对象 'dbo.tbGuaranteeRecordCaption' 中插入重复键。
+语句已终止。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeRecordCaptionDAF.Add(GuaranteeRecordCaptionBM guaranteeRecordCaptionBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\GuaranteeRecordCaptionDAF.cs:行号 41
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeRecordCaptionBF.Add(GuaranteeRecordCaptionBM guaranteeRecordCaptionBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\GuaranteeRecordCaptionBF.cs:行号 41
+
+2014-7-23 11:21:54
+操作数据库错误：不允许从数据类型 varchar 到 varbinary 的隐式转换。请使用 CONVERT 函数来运行此查询。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.Upd错误函数：eGuaranteeInfor(Ma
+程序位置：tenGuaranteeInforBM ma
+程序位置：tenGuaranteeInforBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\GuaranteeInforDAF.cs:行号 148
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.Upd错误函数：eGuaranteeInfor(Ma
+程序位置：tenGuaranteeInforBM ma
+程序位置：tenGuaranteeInforBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\GuaranteeInforBF.cs:行号 124
+
+2014-7-23 11:27:11
+操作数据库错误：不允许从数据类型 varchar 到 varbinary 的隐式转换。请使用 CONVERT 函数来运行此查询。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.Upd错误函数：eGuaranteeInfor(Ma
+程序位置：tenGuaranteeInforBM ma
+程序位置：tenGuaranteeInforBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\GuaranteeInforDAF.cs:行号 148
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.Upd错误函数：eGuaranteeInfor(Ma
+程序位置：tenGuaranteeInforBM ma
+程序位置：tenGuaranteeInforBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\GuaranteeInforBF.cs:行号 124
+

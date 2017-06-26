@@ -1,0 +1,48 @@
+2007-6-12 13:49:09
+操作数据库错误：列名 'cniActualDelayTime' 无效。
+由于绑定错误，无法使用视图或函数 'vw_Legs'。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetFlightsBySt错误函数：ion(D错误函数：eTimeBM d错误函数：eTimeBM, St错误函数：ionBM st错误函数：ionBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 111
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetFlightsBySt错误函数：ion(D错误函数：eTimeBM d错误函数：eTimeBM, St错误函数：ionBM st错误函数：ionBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 95
+
+2007-6-12 13:50:40
+操作数据库错误：列名 'cniActualDelayTime' 无效。
+由于绑定错误，无法使用视图或函数 'vw_Legs'。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetFlightsBySt错误函数：ion(D错误函数：eTimeBM d错误函数：eTimeBM, St错误函数：ionBM st错误函数：ionBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 111
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetFlightsBySt错误函数：ion(D错误函数：eTimeBM d错误函数：eTimeBM, St错误函数：ionBM st错误函数：ionBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 95
+
+2007-6-12 13:55:56
+操作数据库错误：列名 'cniActualDelayTime' 无效。
+由于绑定错误，无法使用视图或函数 'vw_Legs'。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetFlightsBySt错误函数：ion(D错误函数：eTimeBM d错误函数：eTimeBM, St错误函数：ionBM st错误函数：ionBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 111
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetFlightsBySt错误函数：ion(D错误函数：eTimeBM d错误函数：eTimeBM, St错误函数：ionBM st错误函数：ionBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 95
+
+2007-6-12 13:56:24
+操作数据库错误：列名 'cniActualDelayTime' 无效。
+由于绑定错误，无法使用视图或函数 'vw_Legs'。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetFlightsBySt错误函数：ion(D错误函数：eTimeBM d错误函数：eTimeBM, St错误函数：ionBM st错误函数：ionBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 111
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetFlightsBySt错误函数：ion(D错误函数：eTimeBM d错误函数：eTimeBM, St错误函数：ionBM st错误函数：ionBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 95
+
+2007-6-12 13:57:15
+操作数据库错误：列名 'cniActualDelayTime' 无效。
+由于绑定错误，无法使用视图或函数 'vw_Legs'。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetFlightsBySt错误函数：ion(D错误函数：eTimeBM d错误函数：eTimeBM, St错误函数：ionBM st错误函数：ionBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 111
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetFlightsBySt错误函数：ion(D错误函数：eTimeBM d错误函数：eTimeBM, St错误函数：ionBM st错误函数：ionBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 95
+
+2007-6-12 13:57:58
+操作数据库错误：列名 'cniActualDelayTime' 无效。
+由于绑定错误，无法使用视图或函数 'vw_Legs'。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetFlightsBySt错误函数：ion(D错误函数：eTimeBM d错误函数：eTimeBM, St错误函数：ionBM st错误函数：ionBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 111
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetFlightsBySt错误函数：ion(D错误函数：eTimeBM d错误函数：eTimeBM, St错误函数：ionBM st错误函数：ionBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 95
+
+2007-6-12 13:58:38
+操作数据库错误：列名 'cniActualDelayTime' 无效。
+由于绑定错误，无法使用视图或函数 'vw_Legs'。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetFlightsBySt错误函数：ion(D错误函数：eTimeBM d错误函数：eTimeBM, St错误函数：ionBM st错误函数：ionBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 111
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetFlightsBySt错误函数：ion(D错误函数：eTimeBM d错误函数：eTimeBM, St错误函数：ionBM st错误函数：ionBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 95
+
+2007-6-12 13:59:38
+操作数据库错误：列名 'cniActualDelayTime' 无效。
+由于绑定错误，无法使用视图或函数 'vw_Legs'。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetFlightsBySt错误函数：ion(D错误函数：eTimeBM d错误函数：eTimeBM, St错误函数：ionBM st错误函数：ionBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 111
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetFlightsBySt错误函数：ion(D错误函数：eTimeBM d错误函数：eTimeBM, St错误函数：ionBM st错误函数：ionBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 95
+

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="PaxCheckConnect">
+        <s:complexType />
+      </s:element>
+      <s:element name="PaxCheckConnectResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="PaxCheckConnectResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PaxCheckDisConnect">
+        <s:complexType />
+      </s:element>
+      <s:element name="PaxCheckDisConnectResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="PaxCheckNum">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strCommnadText" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PaxCheckNumResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PaxCheckNumResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PaxCargoInfor">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strCommnadText" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PaxCargoInforResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PaxCargoInforResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="PaxCheckConnectSoapIn">
+    <wsdl:part name="parameters" element="tns:PaxCheckConnect" />
+  </wsdl:message>
+  <wsdl:message name="PaxCheckConnectSoapOut">
+    <wsdl:part name="parameters" element="tns:PaxCheckConnectResponse" />
+  </wsdl:message>
+  <wsdl:message name="PaxCheckDisConnectSoapIn">
+    <wsdl:part name="parameters" element="tns:PaxCheckDisConnect" />
+  </wsdl:message>
+  <wsdl:message name="PaxCheckDisConnectSoapOut">
+    <wsdl:part name="parameters" element="tns:PaxCheckDisConnectResponse" />
+  </wsdl:message>
+  <wsdl:message name="PaxCheckNumSoapIn">
+    <wsdl:part name="parameters" element="tns:PaxCheckNum" />
+  </wsdl:message>
+  <wsdl:message name="PaxCheckNumSoapOut">
+    <wsdl:part name="parameters" element="tns:PaxCheckNumResponse" />
+  </wsdl:message>
+  <wsdl:message name="PaxCargoInforSoapIn">
+    <wsdl:part name="parameters" element="tns:PaxCargoInfor" />
+  </wsdl:message>
+  <wsdl:message name="PaxCargoInforSoapOut">
+    <wsdl:part name="parameters" element="tns:PaxCargoInforResponse" />
+  </wsdl:message>
+  <wsdl:portType name="PaxServiceSoap">
+    <wsdl:operation name="PaxCheckConnect">
+      <wsdl:input message="tns:PaxCheckConnectSoapIn" />
+      <wsdl:output message="tns:PaxCheckConnectSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PaxCheckDisConnect">
+      <wsdl:input message="tns:PaxCheckDisConnectSoapIn" />
+      <wsdl:output message="tns:PaxCheckDisConnectSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PaxCheckNum">
+      <wsdl:input message="tns:PaxCheckNumSoapIn" />
+      <wsdl:output message="tns:PaxCheckNumSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PaxCargoInfor">
+      <wsdl:input message="tns:PaxCargoInforSoapIn" />
+      <wsdl:output message="tns:PaxCargoInforSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="PaxServiceSoap" type="tns:PaxServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="PaxCheckConnect">
+      <soap:operation soapAction="http://tempuri.org/PaxCheckConnect" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PaxCheckDisConnect">
+      <soap:operation soapAction="http://tempuri.org/PaxCheckDisConnect" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PaxCheckNum">
+      <soap:operation soapAction="http://tempuri.org/PaxCheckNum" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PaxCargoInfor">
+      <soap:operation soapAction="http://tempuri.org/PaxCargoInfor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="PaxServiceSoap12" type="tns:PaxServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="PaxCheckConnect">
+      <soap12:operation soapAction="http://tempuri.org/PaxCheckConnect" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PaxCheckDisConnect">
+      <soap12:operation soapAction="http://tempuri.org/PaxCheckDisConnect" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PaxCheckNum">
+      <soap12:operation soapAction="http://tempuri.org/PaxCheckNum" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PaxCargoInfor">
+      <soap12:operation soapAction="http://tempuri.org/PaxCargoInfor" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PaxService">
+    <wsdl:port name="PaxServiceSoap" binding="tns:PaxServiceSoap">
+      <soap:address location="http://10.2.104.16/NewPaxService/PaxService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="PaxServiceSoap12" binding="tns:PaxServiceSoap12">
+      <soap12:address location="http://10.2.104.16/NewPaxService/PaxService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,106 @@
+2014-12-15 10:42:54
+操作数据库错误：不能将值 NULL 插入列 'cnvcGate'，表 'dbFlightMonitor.dbo.tbGateInfo'；列不允许有空值。INSERT 失败。
+语句已终止。
+在 AirSoft.FlightMonitor.FlightMonitorDA.G错误函数：eInfoDAF.Save(D错误函数：aTable D错误函数：aTable) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\G错误函数：eInfoDAF.cs:行号 70
+   在 AirSoft.FlightMonitor.FlightMonitorBF.G错误函数：eInfoBF.Save(D错误函数：aTable D错误函数：aTable) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\G错误函数：eInfoBF.cs:行号 74
+
+2014-12-15 10:46:57
+操作数据库错误：不能将值 NULL 插入列 'cnvcGate'，表 'dbFlightMonitor.dbo.tbGateInfo'；列不允许有空值。INSERT 失败。
+语句已终止。
+在 AirSoft.FlightMonitor.FlightMonitorDA.G错误函数：eInfoDAF.Save(D错误函数：aTable D错误函数：aTable) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\G错误函数：eInfoDAF.cs:行号 70
+   在 AirSoft.FlightMonitor.FlightMonitorBF.G错误函数：eInfoBF.Save(D错误函数：aTable D错误函数：aTable) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\G错误函数：eInfoBF.cs:行号 74
+
+2014-12-15 10:47:16
+操作数据库错误：不能将值 NULL 插入列 'cnvcGate'，表 'dbFlightMonitor.dbo.tbGateInfo'；列不允许有空值。INSERT 失败。
+语句已终止。
+在 AirSoft.FlightMonitor.FlightMonitorDA.G错误函数：eInfoDAF.Save(D错误函数：aTable D错误函数：aTable) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\G错误函数：eInfoDAF.cs:行号 70
+   在 AirSoft.FlightMonitor.FlightMonitorBF.G错误函数：eInfoBF.Save(D错误函数：aTable D错误函数：aTable) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\G错误函数：eInfoBF.cs:行号 74
+
+2014-12-15 10:47:31
+操作数据库错误：违反了 PRIMARY KEY 约束 'PK_tbGateInfo'。不能在对象 'dbo.tbGateInfo' 中插入重复键。
+语句已终止。
+在 AirSoft.FlightMonitor.FlightMonitorDA.G错误函数：eInfoDAF.Save(D错误函数：aTable D错误函数：aTable) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\G错误函数：eInfoDAF.cs:行号 70
+   在 AirSoft.FlightMonitor.FlightMonitorBF.G错误函数：eInfoBF.Save(D错误函数：aTable D错误函数：aTable) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\G错误函数：eInfoBF.cs:行号 74
+
+2014-12-15 10:47:44
+操作数据库错误：违反了 PRIMARY KEY 约束 'PK_tbGateInfo'。不能在对象 'dbo.tbGateInfo' 中插入重复键。
+语句已终止。
+在 AirSoft.FlightMonitor.FlightMonitorDA.G错误函数：eInfoDAF.Save(D错误函数：aTable D错误函数：aTable) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\G错误函数：eInfoDAF.cs:行号 70
+   在 AirSoft.FlightMonitor.FlightMonitorBF.G错误函数：eInfoBF.Save(D错误函数：aTable D错误函数：aTable) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\G错误函数：eInfoBF.cs:行号 74
+
+2014-12-15 10:50:14
+操作数据库错误：违反了 PRIMARY KEY 约束 'PK_tbGateInfo'。不能在对象 'dbo.tbGateInfo' 中插入重复键。
+语句已终止。
+在 AirSoft.FlightMonitor.FlightMonitorDA.G错误函数：eInfoDAF.Save(D错误函数：aTable D错误函数：aTable) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\G错误函数：eInfoDAF.cs:行号 70
+   在 AirSoft.FlightMonitor.FlightMonitorBF.G错误函数：eInfoBF.Save(D错误函数：aTable D错误函数：aTable) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\G错误函数：eInfoBF.cs:行号 74
+
+2014-12-15 10:50:26
+操作数据库错误：违反了 PRIMARY KEY 约束 'PK_tbGateInfo'。不能在对象 'dbo.tbGateInfo' 中插入重复键。
+语句已终止。
+在 AirSoft.FlightMonitor.FlightMonitorDA.G错误函数：eInfoDAF.Save(D错误函数：aTable D错误函数：aTable) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\G错误函数：eInfoDAF.cs:行号 70
+   在 AirSoft.FlightMonitor.FlightMonitorBF.G错误函数：eInfoBF.Save(D错误函数：aTable D错误函数：aTable) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\G错误函数：eInfoBF.cs:行号 74
+
+2014-12-15 10:52:14
+操作数据库错误：违反了 PRIMARY KEY 约束 'PK_tbGateInfo'。不能在对象 'dbo.tbGateInfo' 中插入重复键。
+语句已终止。
+在 AirSoft.FlightMonitor.FlightMonitorDA.G错误函数：eInfoDAF.Save(D错误函数：aTable D错误函数：aTable) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\G错误函数：eInfoDAF.cs:行号 70
+   在 AirSoft.FlightMonitor.FlightMonitorBF.G错误函数：eInfoBF.Save(D错误函数：aTable D错误函数：aTable) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\G错误函数：eInfoBF.cs:行号 74
+
+2014-12-15 10:58:19
+操作数据库错误：违反了 PRIMARY KEY 约束 'PK_tbGateInfo'。不能在对象 'dbo.tbGateInfo' 中插入重复键。
+语句已终止。
+在 AirSoft.FlightMonitor.FlightMonitorDA.G错误函数：eInfoDAF.Save(D错误函数：aTable D错误函数：aTable) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\G错误函数：eInfoDAF.cs:行号 70
+   在 AirSoft.FlightMonitor.FlightMonitorBF.G错误函数：eInfoBF.Save(D错误函数：aTable D错误函数：aTable) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\G错误函数：eInfoBF.cs:行号 74
+
+2014-12-15 10:58:19
+操作数据库错误：违反了 PRIMARY KEY 约束 'PK_tbGateInfo'。不能在对象 'dbo.tbGateInfo' 中插入重复键。
+语句已终止。
+在 AirSoft.FlightMonitor.FlightMonitorDA.G错误函数：eInfoDAF.Save(D错误函数：aTable D错误函数：aTable) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\G错误函数：eInfoDAF.cs:行号 70
+   在 AirSoft.FlightMonitor.FlightMonitorBF.G错误函数：eInfoBF.Save(D错误函数：aTable D错误函数：aTable) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\G错误函数：eInfoBF.cs:行号 74
+
+2014-12-15 10:58:25
+操作数据库错误：违反了 PRIMARY KEY 约束 'PK_tbGateInfo'。不能在对象 'dbo.tbGateInfo' 中插入重复键。
+语句已终止。
+在 AirSoft.FlightMonitor.FlightMonitorDA.G错误函数：eInfoDAF.Save(D错误函数：aTable D错误函数：aTable) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\G错误函数：eInfoDAF.cs:行号 70
+   在 AirSoft.FlightMonitor.FlightMonitorBF.G错误函数：eInfoBF.Save(D错误函数：aTable D错误函数：aTable) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\G错误函数：eInfoBF.cs:行号 74
+
+2014-12-15 16:29:23
+业务逻辑处理错误：由于目标机器积极拒绝，无法连接。 10.2.104.13:8085
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPo
+程序位置：t remoteEP)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket(EndPo
+程序位置：t ipEndPo
+程序位置：t)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketCache.GetSocket(Str
+程序位置：g mach
+程序位置：ePortAndSid, Boolean openNew)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.GetLastGuaranteeChangeRecords(Int32 iLastRecordNo, D错误函数：eTimeBM d错误函数：eTimeBM, St错误函数：ionBM st错误函数：ionBM, AccountBM accountBM)
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastGuaranteeChangeRecords(Int32 iLastRecordNo, D错误函数：eTimeBM d错误函数：eTimeBM, St错误函数：ionBM st错误函数：ionBM, AccountBM accountBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\ChangeRecordBF.cs:行号 103
+

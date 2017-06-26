@@ -1,0 +1,1658 @@
+2015-2-3 10:07:36
+业务逻辑处理错误：由于目标机器积极拒绝，无法连接。 127.0.0.1:8086
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPo
+程序位置：t remoteEP)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket(EndPo
+程序位置：t ipEndPo
+程序位置：t)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketCache.GetSocket(Str
+程序位置：g mach
+程序位置：ePortAndSid, Boolean openNew)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.GettbLegs()
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.GettbLegs() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 748
+
+2015-2-3 10:07:38
+业务逻辑处理错误：由于目标机器积极拒绝，无法连接。 127.0.0.1:8086
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPo
+程序位置：t remoteEP)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket(EndPo
+程序位置：t ipEndPo
+程序位置：t)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketCache.GetSocket(Str
+程序位置：g mach
+程序位置：ePortAndSid, Boolean openNew)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.Getvw_FlightChangeRecord()
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.Getvw_FlightChangeRecord() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 826
+
+2015-2-3 10:07:40
+业务逻辑处理错误：由于目标机器积极拒绝，无法连接。 127.0.0.1:8086
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPo
+程序位置：t remoteEP)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket(EndPo
+程序位置：t ipEndPo
+程序位置：t)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketCache.GetSocket(Str
+程序位置：g mach
+程序位置：ePortAndSid, Boolean openNew)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.Getvw_Legs()
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.Getvw_Legs() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 787
+
+2015-2-3 10:10:11
+业务逻辑处理错误：通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+   在 System.Net.Sockets.Socket.DoB
+程序位置：d(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.B
+程序位置：d(EndPo
+程序位置：t localEP)
+   在 System.Net.Sockets.TcpListener.Start(Int32 backlog)
+   在 System.Net.Sockets.TcpListener.Start()
+   在 System.Runtime.Remot
+程序位置：g.Channels.ExclusiveTcpListener.Start(Boolean exclusiveAddressUse)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpServerChannel.StartListen
+程序位置：g(Object d错误函数：a)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpServerChannel.SetupChannel()
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpServerChannel..ctor(Int32 port)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpChannel..ctor(Int32 port)
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.RegisterChannel() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 44
+
+2015-2-3 10:10:14
+业务逻辑处理错误：由于目标机器积极拒绝，无法连接。 127.0.0.1:8086
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPo
+程序位置：t remoteEP)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket(EndPo
+程序位置：t ipEndPo
+程序位置：t)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketCache.GetSocket(Str
+程序位置：g mach
+程序位置：ePortAndSid, Boolean openNew)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.GettbLegs()
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.GettbLegs() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 748
+
+2015-2-3 10:10:15
+业务逻辑处理错误：由于目标机器积极拒绝，无法连接。 127.0.0.1:8086
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPo
+程序位置：t remoteEP)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket(EndPo
+程序位置：t ipEndPo
+程序位置：t)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketCache.GetSocket(Str
+程序位置：g mach
+程序位置：ePortAndSid, Boolean openNew)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.Getvw_FlightChangeRecord()
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.Getvw_FlightChangeRecord() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 826
+
+2015-2-3 10:10:18
+业务逻辑处理错误：由于目标机器积极拒绝，无法连接。 127.0.0.1:8086
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPo
+程序位置：t remoteEP)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket(EndPo
+程序位置：t ipEndPo
+程序位置：t)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketCache.GetSocket(Str
+程序位置：g mach
+程序位置：ePortAndSid, Boolean openNew)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.Getvw_Legs()
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.Getvw_Legs() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 787
+
+2015-2-3 10:10:33
+业务逻辑处理错误：由于目标机器积极拒绝，无法连接。 127.0.0.1:8086
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPo
+程序位置：t remoteEP)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket(EndPo
+程序位置：t ipEndPo
+程序位置：t)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketCache.GetSocket(Str
+程序位置：g mach
+程序位置：ePortAndSid, Boolean openNew)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.GettbLegs()
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.GettbLegs() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 748
+
+2015-2-3 10:10:35
+业务逻辑处理错误：由于目标机器积极拒绝，无法连接。 127.0.0.1:8086
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPo
+程序位置：t remoteEP)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket(EndPo
+程序位置：t ipEndPo
+程序位置：t)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketCache.GetSocket(Str
+程序位置：g mach
+程序位置：ePortAndSid, Boolean openNew)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.Getvw_FlightChangeRecord()
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.Getvw_FlightChangeRecord() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 826
+
+2015-2-3 10:10:37
+业务逻辑处理错误：由于目标机器积极拒绝，无法连接。 127.0.0.1:8086
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPo
+程序位置：t remoteEP)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket(EndPo
+程序位置：t ipEndPo
+程序位置：t)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketCache.GetSocket(Str
+程序位置：g mach
+程序位置：ePortAndSid, Boolean openNew)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.Getvw_Legs()
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.Getvw_Legs() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 787
+
+2015-2-3 10:10:54
+业务逻辑处理错误：由于目标机器积极拒绝，无法连接。 127.0.0.1:8086
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPo
+程序位置：t remoteEP)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket(EndPo
+程序位置：t ipEndPo
+程序位置：t)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketCache.GetSocket(Str
+程序位置：g mach
+程序位置：ePortAndSid, Boolean openNew)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.GettbLegs()
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.GettbLegs() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 748
+
+2015-2-3 10:10:56
+业务逻辑处理错误：由于目标机器积极拒绝，无法连接。 127.0.0.1:8086
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPo
+程序位置：t remoteEP)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket(EndPo
+程序位置：t ipEndPo
+程序位置：t)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketCache.GetSocket(Str
+程序位置：g mach
+程序位置：ePortAndSid, Boolean openNew)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.Getvw_FlightChangeRecord()
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.Getvw_FlightChangeRecord() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 826
+
+2015-2-3 10:10:58
+业务逻辑处理错误：由于目标机器积极拒绝，无法连接。 127.0.0.1:8086
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPo
+程序位置：t remoteEP)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket(EndPo
+程序位置：t ipEndPo
+程序位置：t)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketCache.GetSocket(Str
+程序位置：g mach
+程序位置：ePortAndSid, Boolean openNew)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.Getvw_Legs()
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.Getvw_Legs() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 787
+
+2015-2-3 10:13:24
+业务逻辑处理错误：由于目标机器积极拒绝，无法连接。 127.0.0.1:8086
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPo
+程序位置：t remoteEP)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket(EndPo
+程序位置：t ipEndPo
+程序位置：t)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketCache.GetSocket(Str
+程序位置：g mach
+程序位置：ePortAndSid, Boolean openNew)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.GettbLegs()
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.GettbLegs() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 748
+
+2015-2-3 10:13:27
+业务逻辑处理错误：由于目标机器积极拒绝，无法连接。 127.0.0.1:8086
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPo
+程序位置：t remoteEP)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket(EndPo
+程序位置：t ipEndPo
+程序位置：t)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketCache.GetSocket(Str
+程序位置：g mach
+程序位置：ePortAndSid, Boolean openNew)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.Getvw_FlightChangeRecord()
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.Getvw_FlightChangeRecord() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 826
+
+2015-2-3 10:13:29
+业务逻辑处理错误：由于目标机器积极拒绝，无法连接。 127.0.0.1:8086
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPo
+程序位置：t remoteEP)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket(EndPo
+程序位置：t ipEndPo
+程序位置：t)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketCache.GetSocket(Str
+程序位置：g mach
+程序位置：ePortAndSid, Boolean openNew)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.Getvw_Legs()
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.Getvw_Legs() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 787
+
+2015-2-3 10:13:55
+业务逻辑处理错误：通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+   在 System.Net.Sockets.Socket.DoB
+程序位置：d(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.B
+程序位置：d(EndPo
+程序位置：t localEP)
+   在 System.Net.Sockets.TcpListener.Start(Int32 backlog)
+   在 System.Net.Sockets.TcpListener.Start()
+   在 System.Runtime.Remot
+程序位置：g.Channels.ExclusiveTcpListener.Start(Boolean exclusiveAddressUse)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpServerChannel.StartListen
+程序位置：g(Object d错误函数：a)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpServerChannel.SetupChannel()
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpServerChannel..ctor(Int32 port)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpChannel..ctor(Int32 port)
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.RegisterChannel() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 44
+
+2015-2-3 10:14:04
+业务逻辑处理错误：由于目标机器积极拒绝，无法连接。 127.0.0.1:8086
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPo
+程序位置：t remoteEP)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket(EndPo
+程序位置：t ipEndPo
+程序位置：t)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketCache.GetSocket(Str
+程序位置：g mach
+程序位置：ePortAndSid, Boolean openNew)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.GettbLegs()
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.GettbLegs() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 748
+
+2015-2-3 10:14:14
+业务逻辑处理错误：由于目标机器积极拒绝，无法连接。 127.0.0.1:8086
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPo
+程序位置：t remoteEP)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket(EndPo
+程序位置：t ipEndPo
+程序位置：t)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketCache.GetSocket(Str
+程序位置：g mach
+程序位置：ePortAndSid, Boolean openNew)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.Getvw_FlightChangeRecord()
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.Getvw_FlightChangeRecord() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 826
+
+2015-2-3 10:19:05
+业务逻辑处理错误：信道“tcp”已注册。
+   在 System.Runtime.Remot
+程序位置：g.Channels.ChannelServices.RegisterChannelInternal(IChannel chnl, Boolean ensureSecurity)
+   在 System.Runtime.Remot
+程序位置：g.Channels.ChannelServices.RegisterChannel(IChannel chnl, Boolean ensureSecurity)
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.RegisterChannel() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 47
+
+2015-2-3 10:27:52
+业务逻辑处理错误：信道“tcp”已注册。
+   在 System.Runtime.Remot
+程序位置：g.Channels.ChannelServices.RegisterChannelInternal(IChannel chnl, Boolean ensureSecurity)
+   在 System.Runtime.Remot
+程序位置：g.Channels.ChannelServices.RegisterChannel(IChannel chnl, Boolean ensureSecurity)
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.RegisterChannel() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 47
+
+2015-2-3 10:29:09
+业务逻辑处理错误：信道“tcp”已注册。
+   在 System.Runtime.Remot
+程序位置：g.Channels.ChannelServices.RegisterChannelInternal(IChannel chnl, Boolean ensureSecurity)
+   在 System.Runtime.Remot
+程序位置：g.Channels.ChannelServices.RegisterChannel(IChannel chnl, Boolean ensureSecurity)
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.RegisterChannel() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 47
+
+2015-2-3 10:30:04
+业务逻辑处理错误：信道“tcp”已注册。
+   在 System.Runtime.Remot
+程序位置：g.Channels.ChannelServices.RegisterChannelInternal(IChannel chnl, Boolean ensureSecurity)
+   在 System.Runtime.Remot
+程序位置：g.Channels.ChannelServices.RegisterChannel(IChannel chnl, Boolean ensureSecurity)
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.RegisterChannel() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 47
+
+2015-2-3 10:30:50
+业务逻辑处理错误：由于目标机器积极拒绝，无法连接。 127.0.0.1:8085
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPo
+程序位置：t remoteEP)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket(EndPo
+程序位置：t ipEndPo
+程序位置：t)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketCache.GetSocket(Str
+程序位置：g mach
+程序位置：ePortAndSid, Boolean openNew)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.GettbLegs()
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.GettbLegs() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 748
+
+2015-2-3 10:30:52
+业务逻辑处理错误：由于目标机器积极拒绝，无法连接。 127.0.0.1:8085
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPo
+程序位置：t remoteEP)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket(EndPo
+程序位置：t ipEndPo
+程序位置：t)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketCache.GetSocket(Str
+程序位置：g mach
+程序位置：ePortAndSid, Boolean openNew)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.Getvw_FlightChangeRecord()
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.Getvw_FlightChangeRecord() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 826
+
+2015-2-3 10:30:55
+业务逻辑处理错误：由于目标机器积极拒绝，无法连接。 127.0.0.1:8085
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPo
+程序位置：t remoteEP)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket(EndPo
+程序位置：t ipEndPo
+程序位置：t)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketCache.GetSocket(Str
+程序位置：g mach
+程序位置：ePortAndSid, Boolean openNew)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.Getvw_Legs()
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.Getvw_Legs() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 787
+
+2015-2-3 10:32:36
+业务逻辑处理错误：信道“tcp”已注册。
+   在 System.Runtime.Remot
+程序位置：g.Channels.ChannelServices.RegisterChannelInternal(IChannel chnl, Boolean ensureSecurity)
+   在 System.Runtime.Remot
+程序位置：g.Channels.ChannelServices.RegisterChannel(IChannel chnl, Boolean ensureSecurity)
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.RegisterChannel() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 47
+
+2015-2-3 10:32:38
+业务逻辑处理错误：由于目标机器积极拒绝，无法连接。 127.0.0.1:8085
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPo
+程序位置：t remoteEP)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket(EndPo
+程序位置：t ipEndPo
+程序位置：t)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketCache.GetSocket(Str
+程序位置：g mach
+程序位置：ePortAndSid, Boolean openNew)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.GettbLegs()
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.GettbLegs() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 748
+
+2015-2-3 10:35:46
+业务逻辑处理错误：由于目标机器积极拒绝，无法连接。 127.0.0.1:8086
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPo
+程序位置：t remoteEP)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket(EndPo
+程序位置：t ipEndPo
+程序位置：t)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketCache.GetSocket(Str
+程序位置：g mach
+程序位置：ePortAndSid, Boolean openNew)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.GettbLegs()
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.GettbLegs() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 748
+
+2015-2-3 10:35:48
+业务逻辑处理错误：由于目标机器积极拒绝，无法连接。 127.0.0.1:8086
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPo
+程序位置：t remoteEP)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket(EndPo
+程序位置：t ipEndPo
+程序位置：t)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketCache.GetSocket(Str
+程序位置：g mach
+程序位置：ePortAndSid, Boolean openNew)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.Getvw_FlightChangeRecord()
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.Getvw_FlightChangeRecord() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 826
+
+2015-2-3 10:35:50
+业务逻辑处理错误：由于目标机器积极拒绝，无法连接。 127.0.0.1:8086
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPo
+程序位置：t remoteEP)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket(EndPo
+程序位置：t ipEndPo
+程序位置：t)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketCache.GetSocket(Str
+程序位置：g mach
+程序位置：ePortAndSid, Boolean openNew)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.Getvw_Legs()
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.Getvw_Legs() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 787
+
+2015-2-3 11:24:50
+业务逻辑处理错误：信道“tcp”已注册。
+   在 System.Runtime.Remot
+程序位置：g.Channels.ChannelServices.RegisterChannelInternal(IChannel chnl, Boolean ensureSecurity)
+   在 System.Runtime.Remot
+程序位置：g.Channels.ChannelServices.RegisterChannel(IChannel chnl, Boolean ensureSecurity)
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.RegisterChannel() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 47
+
+2015-2-3 11:24:52
+业务逻辑处理错误：由于目标机器积极拒绝，无法连接。 127.0.0.1:8086
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPo
+程序位置：t remoteEP)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket(EndPo
+程序位置：t ipEndPo
+程序位置：t)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketCache.GetSocket(Str
+程序位置：g mach
+程序位置：ePortAndSid, Boolean openNew)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.GettbLegs()
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.GettbLegs() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 748
+
+2015-2-3 11:24:54
+业务逻辑处理错误：由于目标机器积极拒绝，无法连接。 127.0.0.1:8086
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPo
+程序位置：t remoteEP)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket(EndPo
+程序位置：t ipEndPo
+程序位置：t)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketCache.GetSocket(Str
+程序位置：g mach
+程序位置：ePortAndSid, Boolean openNew)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.Getvw_FlightChangeRecord()
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.Getvw_FlightChangeRecord() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 826
+
+2015-2-3 11:24:56
+业务逻辑处理错误：由于目标机器积极拒绝，无法连接。 127.0.0.1:8086
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPo
+程序位置：t remoteEP)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket(EndPo
+程序位置：t ipEndPo
+程序位置：t)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketCache.GetSocket(Str
+程序位置：g mach
+程序位置：ePortAndSid, Boolean openNew)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.Getvw_Legs()
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.Getvw_Legs() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 787
+
+2015-2-3 11:25:19
+业务逻辑处理错误：由于目标机器积极拒绝，无法连接。 127.0.0.1:8086
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPo
+程序位置：t remoteEP)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket(EndPo
+程序位置：t ipEndPo
+程序位置：t)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketCache.GetSocket(Str
+程序位置：g mach
+程序位置：ePortAndSid, Boolean openNew)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.GettbLegs()
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.GettbLegs() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 748
+
+2015-2-3 11:25:21
+业务逻辑处理错误：由于目标机器积极拒绝，无法连接。 127.0.0.1:8086
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPo
+程序位置：t remoteEP)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket(EndPo
+程序位置：t ipEndPo
+程序位置：t)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketCache.GetSocket(Str
+程序位置：g mach
+程序位置：ePortAndSid, Boolean openNew)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.Getvw_FlightChangeRecord()
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.Getvw_FlightChangeRecord() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 826
+
+2015-2-3 11:25:23
+业务逻辑处理错误：由于目标机器积极拒绝，无法连接。 127.0.0.1:8086
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPo
+程序位置：t remoteEP)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket(EndPo
+程序位置：t ipEndPo
+程序位置：t)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketCache.GetSocket(Str
+程序位置：g mach
+程序位置：ePortAndSid, Boolean openNew)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.Getvw_Legs()
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.Getvw_Legs() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 787
+
+2015-2-3 11:25:33
+业务逻辑处理错误：信道“tcp”已注册。
+   在 System.Runtime.Remot
+程序位置：g.Channels.ChannelServices.RegisterChannelInternal(IChannel chnl, Boolean ensureSecurity)
+   在 System.Runtime.Remot
+程序位置：g.Channels.ChannelServices.RegisterChannel(IChannel chnl, Boolean ensureSecurity)
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.RegisterChannel() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 47
+
+2015-2-3 11:25:35
+业务逻辑处理错误：由于目标机器积极拒绝，无法连接。 127.0.0.1:8086
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPo
+程序位置：t remoteEP)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket(EndPo
+程序位置：t ipEndPo
+程序位置：t)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketCache.GetSocket(Str
+程序位置：g mach
+程序位置：ePortAndSid, Boolean openNew)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.GettbLegs()
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.GettbLegs() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 748
+
+2015-2-3 14:29:36
+业务逻辑处理错误：由于目标机器积极拒绝，无法连接。 127.0.0.1:8086
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPo
+程序位置：t remoteEP)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket(EndPo
+程序位置：t ipEndPo
+程序位置：t)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketCache.GetSocket(Str
+程序位置：g mach
+程序位置：ePortAndSid, Boolean openNew)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.GettbLegs()
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.GettbLegs() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 791
+
+2015-2-3 14:29:38
+业务逻辑处理错误：由于目标机器积极拒绝，无法连接。 127.0.0.1:8086
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPo
+程序位置：t remoteEP)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket(EndPo
+程序位置：t ipEndPo
+程序位置：t)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketCache.GetSocket(Str
+程序位置：g mach
+程序位置：ePortAndSid, Boolean openNew)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.Getvw_FlightChangeRecord()
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.Getvw_FlightChangeRecord() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 869
+
+2015-2-3 14:29:40
+业务逻辑处理错误：由于目标机器积极拒绝，无法连接。 127.0.0.1:8086
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPo
+程序位置：t remoteEP)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket(EndPo
+程序位置：t ipEndPo
+程序位置：t)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketCache.GetSocket(Str
+程序位置：g mach
+程序位置：ePortAndSid, Boolean openNew)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.Getvw_Legs()
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.Getvw_Legs() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 830
+
+2015-2-3 14:29:59
+业务逻辑处理错误：返回数据表 null！
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.GettbLegs() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 793
+
+2015-2-3 14:29:59
+业务逻辑处理错误：返回数据表 null！
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.Getvw_FlightChangeRecord() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 871
+
+2015-2-3 14:29:59
+业务逻辑处理错误：返回数据表 null！
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.Getvw_Legs() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 832
+
+2015-2-3 14:50:09
+业务逻辑处理错误：由于目标机器积极拒绝，无法连接。 127.0.0.1:8085
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPo
+程序位置：t remoteEP)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket(EndPo
+程序位置：t ipEndPo
+程序位置：t)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketCache.GetSocket(Str
+程序位置：g mach
+程序位置：ePortAndSid, Boolean openNew)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.GettbLegs()
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.GettbLegs() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 791
+
+2015-2-3 14:50:12
+业务逻辑处理错误：由于目标机器积极拒绝，无法连接。 127.0.0.1:8085
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPo
+程序位置：t remoteEP)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket(EndPo
+程序位置：t ipEndPo
+程序位置：t)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketCache.GetSocket(Str
+程序位置：g mach
+程序位置：ePortAndSid, Boolean openNew)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.Getvw_FlightChangeRecord()
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.Getvw_FlightChangeRecord() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 869
+
+2015-2-3 14:50:14
+业务逻辑处理错误：由于目标机器积极拒绝，无法连接。 127.0.0.1:8085
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.DoConnect(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPo
+程序位置：t remoteEP)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket(EndPo
+程序位置：t ipEndPo
+程序位置：t)
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.Cre错误函数：eNewSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.RemoteConnection.GetSocket()
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketCache.GetSocket(Str
+程序位置：g mach
+程序位置：ePortAndSid, Boolean openNew)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.Getvw_Legs()
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.Getvw_Legs() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 830
+
+2015-2-3 14:50:55
+业务逻辑处理错误：通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+   在 System.Net.Sockets.Socket.DoB
+程序位置：d(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.B
+程序位置：d(EndPo
+程序位置：t localEP)
+   在 System.Net.Sockets.TcpListener.Start(Int32 backlog)
+   在 System.Net.Sockets.TcpListener.Start()
+   在 System.Runtime.Remot
+程序位置：g.Channels.ExclusiveTcpListener.Start(Boolean exclusiveAddressUse)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpServerChannel.StartListen
+程序位置：g(Object d错误函数：a)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpServerChannel.SetupChannel()
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpServerChannel..ctor(IDictionary properties, IServerChannelS
+程序位置：kProvider s
+程序位置：kProvider, IAuthorizeRemot
+程序位置：gConnection authorizeCallback)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpChannel..ctor(IDictionary properties, IClientChannelS
+程序位置：kProvider clientS
+程序位置：kProvider, IServerChannelS
+程序位置：kProvider serverS
+程序位置：kProvider)
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.RegisterChannel() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 49
+
+2015-2-3 14:55:19
+业务逻辑处理错误：通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+   在 System.Net.Sockets.Socket.DoB
+程序位置：d(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.B
+程序位置：d(EndPo
+程序位置：t localEP)
+   在 System.Net.Sockets.TcpListener.Start(Int32 backlog)
+   在 System.Net.Sockets.TcpListener.Start()
+   在 System.Runtime.Remot
+程序位置：g.Channels.ExclusiveTcpListener.Start(Boolean exclusiveAddressUse)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpServerChannel.StartListen
+程序位置：g(Object d错误函数：a)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpServerChannel.SetupChannel()
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpServerChannel..ctor(IDictionary properties, IServerChannelS
+程序位置：kProvider s
+程序位置：kProvider, IAuthorizeRemot
+程序位置：gConnection authorizeCallback)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpChannel..ctor(IDictionary properties, IClientChannelS
+程序位置：kProvider clientS
+程序位置：kProvider, IServerChannelS
+程序位置：kProvider serverS
+程序位置：kProvider)
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.RegisterChannel() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 49
+

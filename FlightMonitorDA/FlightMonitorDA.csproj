@@ -1,0 +1,213 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{15267F1B-4788-4306-9993-CC6B731F8013}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AirSoft.FlightMonitor.FlightMonitorDA</RootNamespace>
+    <AssemblyName>AirSoft.FlightMonitor.FlightMonitorDA</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AirSoft.Public.DataHelper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\AirSoft.Public.DataHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="AirSoft.Public.SystemFramework, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\AirSoft.Public.SystemFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ACARSLegsDA.cs" />
+    <Compile Include="ACARSLegsDAF.cs" />
+    <Compile Include="ACARSMegsDA.cs" />
+    <Compile Include="ACARSMegsDAF.cs" />
+    <Compile Include="AccountDA.cs" />
+    <Compile Include="AccountDAF.cs" />
+    <Compile Include="AC_MISCDA.cs" />
+    <Compile Include="AC_MISCDAF.cs" />
+    <Compile Include="AgentServiceDAF.cs" />
+    <Compile Include="AirportInfoDA.cs" />
+    <Compile Include="AirportInfoDAF.cs" />
+    <Compile Include="BasicCrewInfoDA.cs" />
+    <Compile Include="BasicCrewInfoDAF.cs" />
+    <Compile Include="ChangeLegsDA.cs" />
+    <Compile Include="ChangeLegsDAF.cs" />
+    <Compile Include="ChangeRecordDA.cs" />
+    <Compile Include="ChangeRecordDAF.cs" />
+    <Compile Include="CommanderInforDA.cs" />
+    <Compile Include="CommanderInforDAF.cs" />
+    <Compile Include="CommanderTypeDA.cs" />
+    <Compile Include="CommanderTypeDAF.cs" />
+    <Compile Include="CommunicationServiceDAF.cs" />
+    <Compile Include="ComputerPlanDA.cs" />
+    <Compile Include="ComputerPlanDAF.cs" />
+    <Compile Include="CrewDA.cs" />
+    <Compile Include="CrewDAF.cs" />
+    <Compile Include="CrewSignInDA.cs" />
+    <Compile Include="CrewSignInDAF.cs" />
+    <Compile Include="DataItemPurviewDA.cs" />
+    <Compile Include="DataItemPurviewDAF.cs" />
+    <Compile Include="DischargingDelayReasonDA.cs" />
+    <Compile Include="DischargingDelayReasonDAF.cs" />
+    <Compile Include="DiversionDelayReasonDA.cs" />
+    <Compile Include="DiversionDelayReasonDAF.cs" />
+    <Compile Include="FlightAlarmInfoDA.cs" />
+    <Compile Include="FlightAlarmInfoDAF.cs" />
+    <Compile Include="FlightDelayReasonDA.cs" />
+    <Compile Include="FlightDelayReasonDAF.cs" />
+    <Compile Include="GateInfoDA.cs" />
+    <Compile Include="GateInfoDAF.cs" />
+    <Compile Include="GuaranteeInforDA.cs" />
+    <Compile Include="GuaranteeInforDAF.cs" />
+    <Compile Include="GuaranteeRecordCaptionDA.cs" />
+    <Compile Include="GuaranteeRecordCaptionDAF.cs" />
+    <Compile Include="GuaranteeRecordDA.cs" />
+    <Compile Include="GuaranteeRecordDAF.cs" />
+    <Compile Include="InOutDelayReasonDA.cs" />
+    <Compile Include="InOutDelayReasonDAF.cs" />
+    <Compile Include="IntermissionTimeDA.cs" />
+    <Compile Include="IntermissionTimeDAF.cs" />
+    <Compile Include="MenuPurviewDA.cs" />
+    <Compile Include="MenuPurviewDAF.cs" />
+    <Compile Include="MessageServiceDA.cs" />
+    <Compile Include="MessageServiceDAF.cs" />
+    <Compile Include="NotificationDA.cs" />
+    <Compile Include="NotificationDAF.cs" />
+    <Compile Include="OnLineUsersDAF.cs" />
+    <Compile Include="OverStationTimeDA.cs" />
+    <Compile Include="OverStationTimeDAF.cs" />
+    <Compile Include="PositionInforDA.cs" />
+    <Compile Include="PositionInforDAF.cs" />
+    <Compile Include="PositionNameDA.cs" />
+    <Compile Include="PositionNameDAF.cs" />
+    <Compile Include="ProcAnalysisDAF.cs" />
+    <Compile Include="ProcRecordsDAF.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ScheduleLegsDA.cs" />
+    <Compile Include="ScheduleLegsDAF.cs" />
+    <Compile Include="ServerDateTimeDA.cs" />
+    <Compile Include="ServerDateTimeDAF.cs" />
+    <Compile Include="StandardItemDA.cs" />
+    <Compile Include="StandardItemDAF.cs" />
+    <Compile Include="StandardItemViewDA.cs" />
+    <Compile Include="StandardItemViewDAF.cs" />
+    <Compile Include="StationDA.cs" />
+    <Compile Include="StationDAF.cs" />
+    <Compile Include="TaskBookServiceDAF.cs" />
+    <Compile Include="VIPDA.cs" />
+    <Compile Include="VIPDAF.cs" />
+    <Compile Include="VoyageReportDA.cs" />
+    <Compile Include="VoyageReportDAF.cs" />
+    <Compile Include="Web References\FocService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\icms\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FlightMonitorBM\FlightMonitorBM.csproj">
+      <Project>{EF706B9B-7B15-48D9-9A8B-3082D41B6579}</Project>
+      <Name>FlightMonitorBM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SharpZipLib\SharpZipLib.csproj">
+      <Project>{414EA02E-4AB5-4380-A300-F6C8ED911176}</Project>
+      <Name>SharpZipLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://10.2.104.13/FocService/FocService.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\FocService\</RelPath>
+      <UpdateFromURL>http://10.2.104.13/FocService/FocService.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>AirSoft_FlightMonitor_FlightMonitorDA_FocService_FleetWatch</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://icms.hnair.net:100/Service.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\icms\</RelPath>
+      <UpdateFromURL>http://icms.hnair.net:100/Service.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>AirSoft_FlightMonitor_FlightMonitorDA_net_hnair_icms_Service</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\FocService\FocService.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\FocService\FocService.disco" />
+    <None Include="Web References\FocService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\icms\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\icms\Service.disco" />
+    <None Include="Web References\icms\Service.wsdl" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,14 @@
+2014-7-11 14:24:19
+操作数据库错误：参数化查询 '(@PARM_StartTime char(19),@PARM_EndTime char(19),@PARM_cnvcLONG_' 需要参数 @PARM_cnvcLONG_REG，但未提供该参数。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAircraftFlights(D错误函数：eTimeBM d错误函数：eTimeBM, Str
+程序位置：g strLONG_REG) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\GuaranteeInforDAF.cs:行号 476
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAircraftFlights(D错误函数：eTimeBM d错误函数：eTimeBM, Str
+程序位置：g strLONG_REG) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\GuaranteeInforBF.cs:行号 396
+
+2014-7-11 14:24:19
+操作数据库错误：参数化查询 '(@PARM_StartTime char(19),@PARM_EndTime char(19),@PARM_cnvcLONG_' 需要参数 @PARM_cnvcLONG_REG，但未提供该参数。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAircraftFlights(D错误函数：eTimeBM d错误函数：eTimeBM, Str
+程序位置：g strLONG_REG) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\GuaranteeInforDAF.cs:行号 476
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAircraftFlights(D错误函数：eTimeBM d错误函数：eTimeBM, Str
+程序位置：g strLONG_REG) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\GuaranteeInforBF.cs:行号 396
+

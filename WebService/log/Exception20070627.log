@@ -1,0 +1,66 @@
+2007-6-27 11:21:23
+操作数据库错误：'tbMenuItem' 附近有语法错误。
+在 AirSoft.FlightMonitor.FlightMonitorDA.MenuPurviewDAF.GetMenuItemPurview(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\MenuPurviewDAF.cs:行号 76
+   在 AirSoft.FlightMonitor.FlightMonitorBF.MenuPurviewBF.GetMenuItemPurview(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\MenuPurviewBF.cs:行号 66
+
+2007-6-27 13:53:08
+操作数据库错误：'tbMenuItem' 附近有语法错误。
+在 AirSoft.FlightMonitor.FlightMonitorDA.MenuPurviewDAF.GetMenuItemPurview(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\MenuPurviewDAF.cs:行号 76
+   在 AirSoft.FlightMonitor.FlightMonitorBF.MenuPurviewBF.GetMenuItemPurview(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\MenuPurviewBF.cs:行号 67
+
+2007-6-27 13:53:12
+操作数据库错误：'tbMenuItem' 附近有语法错误。
+在 AirSoft.FlightMonitor.FlightMonitorDA.MenuPurviewDAF.GetMenuItemPurview(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\MenuPurviewDAF.cs:行号 76
+   在 AirSoft.FlightMonitor.FlightMonitorBF.MenuPurviewBF.GetMenuItemPurview(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\MenuPurviewBF.cs:行号 67
+
+2007-6-27 13:54:45
+操作数据库错误：'tbMenuItem' 附近有语法错误。
+在 AirSoft.FlightMonitor.FlightMonitorDA.MenuPurviewDAF.GetMenuItemPurview(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\MenuPurviewDAF.cs:行号 76
+   在 AirSoft.FlightMonitor.FlightMonitorBF.MenuPurviewBF.GetMenuItemPurview(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\MenuPurviewBF.cs:行号 67
+
+2007-6-27 13:55:02
+操作数据库错误：'tbMenuItem' 附近有语法错误。
+在 AirSoft.FlightMonitor.FlightMonitorDA.MenuPurviewDAF.GetMenuItemPurview(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\MenuPurviewDAF.cs:行号 76
+   在 AirSoft.FlightMonitor.FlightMonitorBF.MenuPurviewBF.GetMenuItemPurview(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\MenuPurviewBF.cs:行号 67
+
+2007-6-27 15:06:12
+操作数据库错误：在建立与服务器的连接时出错。在连接到 SQL Server 2005 时，在默认的设置下 SQL Server 不允许进行远程连接可能会导致此失败。 (provider: 命名管道提供程序, error: 40 - 无法打开到 SQL Server 的连接)
+在 System.D错误函数：a.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.D错误函数：a.SqlClient.TdsParser.ThrowExceptionAndWarn
+程序位置：g(TdsParserSt错误函数：eObject st错误函数：eObj)
+   在 System.D错误函数：a.SqlClient.TdsParser.Connect(Boolean& useFailoverPartner, Boolean& failoverDemandDone, Str
+程序位置：g host, Str
+程序位置：g failoverPartner, Str
+程序位置：g protocol, SqlInternalConnectionTds connHandler, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean 
+程序位置：tegr错误函数：edSecurity, SqlConnection own
+程序位置：gObject, Boolean aliasLookup)
+   在 System.D错误函数：a.SqlClient.SqlInternalConnectionTds.OpenLog
+程序位置：Enlist(SqlConnection own
+程序位置：gObject, SqlConnectionStr
+程序位置：g connectionOptions, Str
+程序位置：g newPassword, Boolean redirectedUserInstance)
+   在 System.D错误函数：a.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionStr
+程序位置：g connectionOptions, Object providerInfo, Str
+程序位置：g newPassword, SqlConnection own
+程序位置：gObject, Boolean redirectedUserInstance)
+   在 System.D错误函数：a.SqlClient.SqlConnectionFactory.Cre错误函数：eConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection own
+程序位置：gConnection)
+   在 System.D错误函数：a.ProviderBase.DbConnectionFactory.Cre错误函数：ePooledConnection(DbConnection own
+程序位置：gConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.D错误函数：a.ProviderBase.DbConnectionPool.Cre错误函数：eObject(DbConnection own
+程序位置：gObject)
+   在 System.D错误函数：a.ProviderBase.DbConnectionPool.UserCre错误函数：eRequest(DbConnection own
+程序位置：gObject)
+   在 System.D错误函数：a.ProviderBase.DbConnectionPool.GetConnection(DbConnection own
+程序位置：gObject)
+   在 System.D错误函数：a.ProviderBase.DbConnectionFactory.GetConnection(DbConnection own
+程序位置：gConnection)
+   在 System.D错误函数：a.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.D错误函数：a.SqlClient.SqlConnection.Open()
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.GetConnOpen(Str
+程序位置：g strDbConn) 位置 D:\workspace\14代码实现\Public\D错误函数：aHelper\SqlD错误函数：abase.cs:行号 109
+   在 AirSoft.FlightMonitor.FlightMonitorDA.AccountDAF.GetAccountByUserId(Str
+程序位置：g strUserId) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\AccountDAF.cs:行号 245
+   在 AirSoft.FlightMonitor.FlightMonitorBR.AccountBR.LogOn(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBR\AccountBR.cs:行号 40
+   在 AirSoft.FlightMonitor.FlightMonitorBF.AccountBF.LogOn(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\AccountBF.cs:行号 199
+

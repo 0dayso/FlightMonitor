@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AirSoft.FlightMonitor.FlightMonitorDA.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="AirSoft_FlightMonitor_FlightMonitorDA_FocService_FleetWatch" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://10.2.104.13/FocService/FocService.asmx</Value>
+    </Setting>
+    <Setting Name="AirSoft_FlightMonitor_FlightMonitorDA_net_hnair_icms_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://icms.hnair.net:100/Service.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

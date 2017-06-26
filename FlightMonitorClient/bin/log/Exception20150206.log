@@ -1,0 +1,42 @@
+2015-2-6 16:18:10
+业务逻辑处理错误：服务器遇到内部错误。有关更多信息，请关闭服务器的 .config 文件中的 customErrors。
+
+Server stack trace: 
+
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.GetFlightByKey(ChangeLegsBM changeLegsBM, AccountBM accountBM)
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetFlightByKey(ChangeLegsBM changeLegsBM, AccountBM accountBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\GuaranteeInforBF.cs:行号 634
+
+2015-2-6 16:18:30
+业务逻辑处理错误：服务器遇到内部错误。有关更多信息，请关闭服务器的 .config 文件中的 customErrors。
+
+Server stack trace: 
+
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.GetFlightByKey(ChangeLegsBM changeLegsBM, AccountBM accountBM)
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetFlightByKey(ChangeLegsBM changeLegsBM, AccountBM accountBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\GuaranteeInforBF.cs:行号 634
+
+2015-2-6 16:18:50
+业务逻辑处理错误：服务器遇到内部错误。有关更多信息，请关闭服务器的 .config 文件中的 customErrors。
+
+Server stack trace: 
+
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.GetFlightByKey(ChangeLegsBM changeLegsBM, AccountBM accountBM)
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetFlightByKey(ChangeLegsBM changeLegsBM, AccountBM accountBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\GuaranteeInforBF.cs:行号 634
+

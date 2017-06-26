@@ -1,0 +1,18 @@
+2016-6-13 17:25:47
+操作数据库错误：关键字 'WHERE' 附近有语法错误。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.Upd错误函数：eGuaranteeInfor(Ma
+程序位置：tenGuaranteeInforBM ma
+程序位置：tenGuaranteeInforBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\GuaranteeInforDAF.cs:行号 148
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.Upd错误函数：eGuaranteeInfor(Ma
+程序位置：tenGuaranteeInforBM ma
+程序位置：tenGuaranteeInforBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\GuaranteeInforBF.cs:行号 124
+
+2016-6-13 17:26:09
+操作数据库错误：'R' 附近有语法错误。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.Upd错误函数：eGuaranteeInfor(Ma
+程序位置：tenGuaranteeInforBM ma
+程序位置：tenGuaranteeInforBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\GuaranteeInforDAF.cs:行号 148
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.Upd错误函数：eGuaranteeInfor(Ma
+程序位置：tenGuaranteeInforBM ma
+程序位置：tenGuaranteeInforBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\GuaranteeInforBF.cs:行号 124
+

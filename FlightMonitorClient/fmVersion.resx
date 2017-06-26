@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>VER 160707
+  1、增加：桂林航GT航班的显示。
+VER 160614
+  1、增加：西安车队的需求，增加机组车等各保障车辆用车次数项目，作为服务收费凭据数据。
+VER 160503
+  1、增加：出港航班到达时刻项目（计划、预达、落地和到位）。
+VER 160428
+  1、完善：保障人员信息管理功能，拓展了更多类型。
+  2、增加：航班关注功能（增加各保障单位关注列、保障人员多选框），并和移动端使用联动。
+VER 160330
+  1、开通：VER 151102
+VER 160328
+  1、完善：增加了旅客信息访问的限制（右击菜单栏和主界面底栏中旅客信息项）
+VER 160314
+  1、增加：长航9H航班的显示
+  2、屏蔽：功能 VER 151022 、VER 151102
+VER 151102
+  1、增加：接入运管平台旅客信息（参数进行了加解密处理，由于提供方是JAVA机制，进行C#处理花费了较大精力）。
+VER 151022
+  1、增加：实现用户提取历史数据的功能。（在主界面右下角增加选择项）
+           注意：发布时需要升级配置文件（增加了 dbFlightMonitor_Use 和 dbFlightMonitor_Bak 两个配置项）
+VER 150909
+  1、完善：停机位报文中，日期数据改用航班对象 ChangeRecordBM 的 OldDATOP 属性。
+VER 150730
+  1、增加：增加数据项 出港空勤组|出发、出港空勤组|到位、出港航班|过站类型 的处理功能。
+VER 150624
+  1、增加：增加数据项 测试|进港机位、测试|出港机位、出港截载|时间、进港转盘|号码、出港转盘|号码 的处理功能。
+VER 150615
+  1、完善：现象：字段长度超过30个字符，在保存到并更记录表的cnvcChangeReasonCode字段里头会被截断；
+           原因：数据层对cnvcChangeReasonCode字段的长度限制为30字节；
+           结果：修正BUG，把长度限制扩大到100字节。
+VER 150429
+  1、完善：在用户管理页面中增加根据帐号或用户名定位位置的功能。
+  2、完善：增加处理 第一位旅客|进入客舱 和 飞机准备|完毕 数据项的功能。
+VER 150424
+  1、完善：增加根据公司代码过滤航班的功能。
+VER 150422
+  1、完善：增加处理首都机场提供的数据项的功能。
+VER 150416
+  1、双击变更列表中的数据，根据选中的数据项查找航班动态。
+VER 150403
+  1、完善：解决点击航班条时提示对象引用为空的错误。
+VER 150330
+  1、完善：在只有出港航班的情况下，也显示进港航班机型列数据（原先的情况：进港航班只有飞机数据，其他数据都没有）。
+  2、完善：解决部分航班没有获取到任务书数据的问题。
+  3、完善：底部栏目 -- 任务书 ： 标题中航班日期改为使用北京时
+VER 150310
+  完善：更改fmFlightGuarantee.cs和fmFlightWatch.cs中定时访问vw_legs的指向，增加代理服务，
+        GetFlightByKey(ChangeLegsBM changeLegsBM) 更改为代理服务的 DataTable GetFlightByKey_NotCompress(ChangeLegsBM changeLegsBM, 
+        AccountBM accountBM)。
+VER 150303
+  完善：更改fmFlightGuarantee.cs和fmFlightWatch.cs中定时访问vw_legs的指向，增加代理服务，
+        GetFlightByKey(ChangeLegsBM changeLegsBM) 更改为代理服务的 byte[] GetFlightByKey(ChangeLegsBM changeLegsBM, AccountBM accountBM)。
+VER 150106
+  完善：更改中间层架构，支持分散发布代理服务，各代理服务承接不同用户群。
+VER 141215
+  增加：停机位信息维护功能。
+VER 140901
+  增加：在录入停机位信息时，如果新值和原值一样，保存按钮实效，否则，保存按钮有效。
+VER 140729
+  增加：航班保障记录管理功能。
+VER 140728
+  完善：标题宽度的自适应（根据视图的选择自动设置合适的宽度，使标题不会出现折行导致文字不能概览）
+VER 140725
+  完善：监控主界面启动时，两层标题中的顶层标题字体不适应。
+  完善：航班保障工作甘特图展示。
+VER 140605
+  完善：视图设置界面（增加了搜索和鼠标拖放功能）
+VER 140428
+  更正：在航班变更信息的提取的部分，数据层提取语句中，航班号带有空格，导致模糊匹配语句提取信息不全(没有实现想要的结果)。
+VER 140418
+  在处理旅客信息、任务书数据功能中，取消弹出框提示，把提示信息放置到状态栏。
+VER 140409
+  更正：录入第二天最后一些航班的数据时出现错误（颜显在点击主界面的事件中的处理存在BUG）。</value>
+  </data>
+</root>

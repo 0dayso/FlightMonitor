@@ -1,0 +1,33 @@
+2007-6-25 8:55:46
+操作数据库错误：'cncDATOP' 附近有语法错误。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.Upd错误函数：eGuaranteeInfor(Ma
+程序位置：tenGuaranteeInforBM ma
+程序位置：tenGuaranteeInforBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 141
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.Upd错误函数：eGuaranteeInfor(Ma
+程序位置：tenGuaranteeInforBM ma
+程序位置：tenGuaranteeInforBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 120
+
+2007-6-25 8:57:23
+操作数据库错误：'cncDATOP' 附近有语法错误。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.Upd错误函数：eGuaranteeInfor(Ma
+程序位置：tenGuaranteeInforBM ma
+程序位置：tenGuaranteeInforBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 141
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.Upd错误函数：eGuaranteeInfor(Ma
+程序位置：tenGuaranteeInforBM ma
+程序位置：tenGuaranteeInforBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 120
+
+2007-6-25 19:26:27
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetFlightsBySt错误函数：ion(D错误函数：eTimeBM d错误函数：eTimeBM, St错误函数：ionBM st错误函数：ionBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 111
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetFlightsBySt错误函数：ion(D错误函数：eTimeBM d错误函数：eTimeBM, St错误函数：ionBM st错误函数：ionBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 95
+
+2007-6-25 19:26:56
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetFlightsBySt错误函数：ion(D错误函数：eTimeBM d错误函数：eTimeBM, St错误函数：ionBM st错误函数：ionBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 111
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetFlightsBySt错误函数：ion(D错误函数：eTimeBM d错误函数：eTimeBM, St错误函数：ionBM st错误函数：ionBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 95
+
+2007-6-25 19:27:50
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetFlightsBySt错误函数：ion(D错误函数：eTimeBM d错误函数：eTimeBM, St错误函数：ionBM st错误函数：ionBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 111
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetFlightsBySt错误函数：ion(D错误函数：eTimeBM d错误函数：eTimeBM, St错误函数：ionBM st错误函数：ionBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 95
+

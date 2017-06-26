@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:s0="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:import namespace="http://www.w3.org/2001/XMLSchema" />
+      <s:element name="GetCrewLegsInfo">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetCrewLegsInfoResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetLegsInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FltId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="STDStart" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="STDEnd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DepStn" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ArrStn" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="LongReg" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="iDataSet" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLegsInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetLegsInfoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MatchDateTime">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PlanDate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FlyNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MatchDateTimeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MatchDateTimeResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertGate">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="msgText" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertGateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="InsertGateResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertMessage">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tstAmp" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="origin" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="msgType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="msgText" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertMessageResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="InsertMessageResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFlightNum">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="STDStart" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="STDEnd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Station" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFlightNumResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetFlightNumResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFlightData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="STDStart" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="STDEnd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Station" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFlightDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetFlightDataResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStationSchedule">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="startDate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="endDate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="station" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStationScheduleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetStationScheduleResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMaintanceInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Id" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="LongReg" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Station" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="TStartDate" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMaintanceInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMaintanceInfoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFlightInfoByMCCDelay">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LongReg" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Station" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FlightDate" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFlightInfoByMCCDelayResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetFlightInfoByMCCDelayResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetVIPInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strStartDate" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetVIPInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetVIPInfoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ClearHainan_crew_legs">
+        <s:complexType />
+      </s:element>
+      <s:element name="ClearHainan_crew_legsResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </types>
+  <message name="GetCrewLegsInfoSoapIn">
+    <part name="parameters" element="s0:GetCrewLegsInfo" />
+  </message>
+  <message name="GetCrewLegsInfoSoapOut">
+    <part name="parameters" element="s0:GetCrewLegsInfoResponse" />
+  </message>
+  <message name="GetLegsInfoSoapIn">
+    <part name="parameters" element="s0:GetLegsInfo" />
+  </message>
+  <message name="GetLegsInfoSoapOut">
+    <part name="parameters" element="s0:GetLegsInfoResponse" />
+  </message>
+  <message name="MatchDateTimeSoapIn">
+    <part name="parameters" element="s0:MatchDateTime" />
+  </message>
+  <message name="MatchDateTimeSoapOut">
+    <part name="parameters" element="s0:MatchDateTimeResponse" />
+  </message>
+  <message name="InsertGateSoapIn">
+    <part name="parameters" element="s0:InsertGate" />
+  </message>
+  <message name="InsertGateSoapOut">
+    <part name="parameters" element="s0:InsertGateResponse" />
+  </message>
+  <message name="InsertMessageSoapIn">
+    <part name="parameters" element="s0:InsertMessage" />
+  </message>
+  <message name="InsertMessageSoapOut">
+    <part name="parameters" element="s0:InsertMessageResponse" />
+  </message>
+  <message name="GetFlightNumSoapIn">
+    <part name="parameters" element="s0:GetFlightNum" />
+  </message>
+  <message name="GetFlightNumSoapOut">
+    <part name="parameters" element="s0:GetFlightNumResponse" />
+  </message>
+  <message name="GetFlightDataSoapIn">
+    <part name="parameters" element="s0:GetFlightData" />
+  </message>
+  <message name="GetFlightDataSoapOut">
+    <part name="parameters" element="s0:GetFlightDataResponse" />
+  </message>
+  <message name="GetStationScheduleSoapIn">
+    <part name="parameters" element="s0:GetStationSchedule" />
+  </message>
+  <message name="GetStationScheduleSoapOut">
+    <part name="parameters" element="s0:GetStationScheduleResponse" />
+  </message>
+  <message name="GetMaintanceInfoSoapIn">
+    <part name="parameters" element="s0:GetMaintanceInfo" />
+  </message>
+  <message name="GetMaintanceInfoSoapOut">
+    <part name="parameters" element="s0:GetMaintanceInfoResponse" />
+  </message>
+  <message name="GetFlightInfoByMCCDelaySoapIn">
+    <part name="parameters" element="s0:GetFlightInfoByMCCDelay" />
+  </message>
+  <message name="GetFlightInfoByMCCDelaySoapOut">
+    <part name="parameters" element="s0:GetFlightInfoByMCCDelayResponse" />
+  </message>
+  <message name="GetVIPInfoSoapIn">
+    <part name="parameters" element="s0:GetVIPInfo" />
+  </message>
+  <message name="GetVIPInfoSoapOut">
+    <part name="parameters" element="s0:GetVIPInfoResponse" />
+  </message>
+  <message name="ClearHainan_crew_legsSoapIn">
+    <part name="parameters" element="s0:ClearHainan_crew_legs" />
+  </message>
+  <message name="ClearHainan_crew_legsSoapOut">
+    <part name="parameters" element="s0:ClearHainan_crew_legsResponse" />
+  </message>
+  <portType name="FleetWatchSoap">
+    <operation name="GetCrewLegsInfo">
+      <input message="s0:GetCrewLegsInfoSoapIn" />
+      <output message="s0:GetCrewLegsInfoSoapOut" />
+    </operation>
+    <operation name="GetLegsInfo">
+      <input message="s0:GetLegsInfoSoapIn" />
+      <output message="s0:GetLegsInfoSoapOut" />
+    </operation>
+    <operation name="MatchDateTime">
+      <input message="s0:MatchDateTimeSoapIn" />
+      <output message="s0:MatchDateTimeSoapOut" />
+    </operation>
+    <operation name="InsertGate">
+      <input message="s0:InsertGateSoapIn" />
+      <output message="s0:InsertGateSoapOut" />
+    </operation>
+    <operation name="InsertMessage">
+      <input message="s0:InsertMessageSoapIn" />
+      <output message="s0:InsertMessageSoapOut" />
+    </operation>
+    <operation name="GetFlightNum">
+      <input message="s0:GetFlightNumSoapIn" />
+      <output message="s0:GetFlightNumSoapOut" />
+    </operation>
+    <operation name="GetFlightData">
+      <input message="s0:GetFlightDataSoapIn" />
+      <output message="s0:GetFlightDataSoapOut" />
+    </operation>
+    <operation name="GetStationSchedule">
+      <input message="s0:GetStationScheduleSoapIn" />
+      <output message="s0:GetStationScheduleSoapOut" />
+    </operation>
+    <operation name="GetMaintanceInfo">
+      <input message="s0:GetMaintanceInfoSoapIn" />
+      <output message="s0:GetMaintanceInfoSoapOut" />
+    </operation>
+    <operation name="GetFlightInfoByMCCDelay">
+      <input message="s0:GetFlightInfoByMCCDelaySoapIn" />
+      <output message="s0:GetFlightInfoByMCCDelaySoapOut" />
+    </operation>
+    <operation name="GetVIPInfo">
+      <input message="s0:GetVIPInfoSoapIn" />
+      <output message="s0:GetVIPInfoSoapOut" />
+    </operation>
+    <operation name="ClearHainan_crew_legs">
+      <input message="s0:ClearHainan_crew_legsSoapIn" />
+      <output message="s0:ClearHainan_crew_legsSoapOut" />
+    </operation>
+  </portType>
+  <binding name="FleetWatchSoap" type="s0:FleetWatchSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="GetCrewLegsInfo">
+      <soap:operation soapAction="http://tempuri.org/GetCrewLegsInfo" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetLegsInfo">
+      <soap:operation soapAction="http://tempuri.org/GetLegsInfo" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="MatchDateTime">
+      <soap:operation soapAction="http://tempuri.org/MatchDateTime" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="InsertGate">
+      <soap:operation soapAction="http://tempuri.org/InsertGate" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="InsertMessage">
+      <soap:operation soapAction="http://tempuri.org/InsertMessage" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetFlightNum">
+      <soap:operation soapAction="http://tempuri.org/GetFlightNum" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetFlightData">
+      <soap:operation soapAction="http://tempuri.org/GetFlightData" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetStationSchedule">
+      <soap:operation soapAction="http://tempuri.org/GetStationSchedule" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetMaintanceInfo">
+      <soap:operation soapAction="http://tempuri.org/GetMaintanceInfo" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetFlightInfoByMCCDelay">
+      <soap:operation soapAction="http://tempuri.org/GetFlightInfoByMCCDelay" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetVIPInfo">
+      <soap:operation soapAction="http://tempuri.org/GetVIPInfo" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ClearHainan_crew_legs">
+      <soap:operation soapAction="http://tempuri.org/ClearHainan_crew_legs" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="FleetWatch">
+    <port name="FleetWatchSoap" binding="s0:FleetWatchSoap">
+      <soap:address location="http://10.2.104.13/FocService/FocService.asmx" />
+    </port>
+  </service>
+</definitions>

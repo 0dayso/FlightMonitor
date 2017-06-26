@@ -1,0 +1,45 @@
+2009-11-10 23:37:21
+操作数据库错误：超时时间已到。在操作完成之前超时时间已过或服务器未响应。
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 260
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.SynchronizeD错误函数：as_vw_FlightChangeRecord() 位置 E:\我的主页\net\FlightMonitor\AgentService\AgentServiceBF\AgentServiceBF.cs:行号 326
+
+2009-11-10 23:38:05
+操作数据库错误：超时时间已到。在操作完成之前超时时间已过或服务器未响应。
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 260
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.SynchronizeD错误函数：as_vw_FlightChangeRecord() 位置 E:\我的主页\net\FlightMonitor\AgentService\AgentServiceBF\AgentServiceBF.cs:行号 326
+
+2009-11-10 23:38:41
+操作数据库错误：超时时间已到。在操作完成之前超时时间已过或服务器未响应。
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 260
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.SynchronizeD错误函数：as_vw_FlightChangeRecord() 位置 E:\我的主页\net\FlightMonitor\AgentService\AgentServiceBF\AgentServiceBF.cs:行号 326
+
+2009-11-10 23:39:22
+操作数据库错误：超时时间已到。在操作完成之前超时时间已过或服务器未响应。
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 260
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.SynchronizeD错误函数：as_vw_FlightChangeRecord() 位置 E:\我的主页\net\FlightMonitor\AgentService\AgentServiceBF\AgentServiceBF.cs:行号 326
+
+2009-11-10 23:40:03
+操作数据库错误：超时时间已到。在操作完成之前超时时间已过或服务器未响应。
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 260
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.SynchronizeD错误函数：as_vw_FlightChangeRecord() 位置 E:\我的主页\net\FlightMonitor\AgentService\AgentServiceBF\AgentServiceBF.cs:行号 326
+
+2009-11-10 23:40:41
+操作数据库错误：超时时间已到。在操作完成之前超时时间已过或服务器未响应。
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 260
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.SynchronizeD错误函数：as_vw_FlightChangeRecord() 位置 E:\我的主页\net\FlightMonitor\AgentService\AgentServiceBF\AgentServiceBF.cs:行号 326
+
+2009-11-10 23:42:41
+操作数据库错误：超时时间已到。在操作完成之前超时时间已过或服务器未响应。
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 260
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.SynchronizeD错误函数：as_vw_FlightChangeRecord() 位置 E:\我的主页\net\FlightMonitor\AgentService\AgentServiceBF\AgentServiceBF.cs:行号 326
+
+2009-11-10 23:43:21
+操作数据库错误：超时时间已到。在操作完成之前超时时间已过或服务器未响应。
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 260
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.SynchronizeD错误函数：as_vw_FlightChangeRecord() 位置 E:\我的主页\net\FlightMonitor\AgentService\AgentServiceBF\AgentServiceBF.cs:行号 326
+
+2009-11-10 23:44:01
+操作数据库错误：超时时间已到。在操作完成之前超时时间已过或服务器未响应。
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 260
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.SynchronizeD错误函数：as_vw_FlightChangeRecord() 位置 E:\我的主页\net\FlightMonitor\AgentService\AgentServiceBF\AgentServiceBF.cs:行号 326
+

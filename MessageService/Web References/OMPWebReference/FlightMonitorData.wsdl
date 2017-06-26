@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetDataItemPurview">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataItemPurviewResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDataItemPurviewResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MaintainGuaranteeInfor">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FLTID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DATOP" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="LegNo" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="AC" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DepSTN" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ArrSTN" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="STD" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ETD" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="STA" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ETA" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ChangeReasonCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ChangeOldContent" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ChangeNewContent" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="FieldType" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="LocalOperatingTime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MaintainGuaranteeInforResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="MaintainGuaranteeInforResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetGuaranteeInfor">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="STN" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DATOP" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FLTID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetGuaranteeInforResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetGuaranteeInforResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddGuaranteeRecord">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DATOP" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FLTID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="LegNO" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="AC" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FlightDate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FlightNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="LONG_REG" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DEPSTN" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ARRSTN" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="STD" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ETD" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="STA" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ETA" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Station" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="GuaranteeRecordCaptionID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="GuaranteeTime" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="GuaranteeContent" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserDepartment" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddGuaranteeRecordResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AddGuaranteeRecordResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetDataItemPurviewSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDataItemPurview" />
+  </wsdl:message>
+  <wsdl:message name="GetDataItemPurviewSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDataItemPurviewResponse" />
+  </wsdl:message>
+  <wsdl:message name="MaintainGuaranteeInforSoapIn">
+    <wsdl:part name="parameters" element="tns:MaintainGuaranteeInfor" />
+  </wsdl:message>
+  <wsdl:message name="MaintainGuaranteeInforSoapOut">
+    <wsdl:part name="parameters" element="tns:MaintainGuaranteeInforResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetGuaranteeInforSoapIn">
+    <wsdl:part name="parameters" element="tns:GetGuaranteeInfor" />
+  </wsdl:message>
+  <wsdl:message name="GetGuaranteeInforSoapOut">
+    <wsdl:part name="parameters" element="tns:GetGuaranteeInforResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddGuaranteeRecordSoapIn">
+    <wsdl:part name="parameters" element="tns:AddGuaranteeRecord" />
+  </wsdl:message>
+  <wsdl:message name="AddGuaranteeRecordSoapOut">
+    <wsdl:part name="parameters" element="tns:AddGuaranteeRecordResponse" />
+  </wsdl:message>
+  <wsdl:portType name="FlightMonitorDataSoap">
+    <wsdl:operation name="GetDataItemPurview">
+      <wsdl:input message="tns:GetDataItemPurviewSoapIn" />
+      <wsdl:output message="tns:GetDataItemPurviewSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MaintainGuaranteeInfor">
+      <wsdl:input message="tns:MaintainGuaranteeInforSoapIn" />
+      <wsdl:output message="tns:MaintainGuaranteeInforSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGuaranteeInfor">
+      <wsdl:input message="tns:GetGuaranteeInforSoapIn" />
+      <wsdl:output message="tns:GetGuaranteeInforSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddGuaranteeRecord">
+      <wsdl:input message="tns:AddGuaranteeRecordSoapIn" />
+      <wsdl:output message="tns:AddGuaranteeRecordSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="FlightMonitorDataSoap" type="tns:FlightMonitorDataSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetDataItemPurview">
+      <soap:operation soapAction="http://tempuri.org/GetDataItemPurview" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MaintainGuaranteeInfor">
+      <soap:operation soapAction="http://tempuri.org/MaintainGuaranteeInfor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGuaranteeInfor">
+      <soap:operation soapAction="http://tempuri.org/GetGuaranteeInfor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddGuaranteeRecord">
+      <soap:operation soapAction="http://tempuri.org/AddGuaranteeRecord" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="FlightMonitorDataSoap12" type="tns:FlightMonitorDataSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetDataItemPurview">
+      <soap12:operation soapAction="http://tempuri.org/GetDataItemPurview" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MaintainGuaranteeInfor">
+      <soap12:operation soapAction="http://tempuri.org/MaintainGuaranteeInfor" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGuaranteeInfor">
+      <soap12:operation soapAction="http://tempuri.org/GetGuaranteeInfor" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddGuaranteeRecord">
+      <soap12:operation soapAction="http://tempuri.org/AddGuaranteeRecord" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="FlightMonitorData">
+    <wsdl:port name="FlightMonitorDataSoap" binding="tns:FlightMonitorDataSoap">
+      <soap:address location="http://10.2.104.13/OMP/FlightMonitorData.asmx" />
+    </wsdl:port>
+    <wsdl:port name="FlightMonitorDataSoap12" binding="tns:FlightMonitorDataSoap12">
+      <soap12:address location="http://10.2.104.13/OMP/FlightMonitorData.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

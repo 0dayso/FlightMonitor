@@ -1,0 +1,25 @@
+2009-11-20 15:09:30
+操作数据库错误：超时时间已到。在操作完成之前超时时间已过或服务器未响应。
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 260
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.SynchronizeD错误函数：as_vw_FlightChangeRecord() 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\AgentServiceBF.cs:行号 339
+
+2009-11-20 15:10:07
+操作数据库错误：超时时间已到。在操作完成之前超时时间已过或服务器未响应。
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 260
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.SynchronizeD错误函数：as_vw_FlightChangeRecord() 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\AgentServiceBF.cs:行号 339
+
+2009-11-20 15:39:51
+操作数据库错误：超时时间已到。在操作完成之前超时时间已过或服务器未响应。
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 260
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.SynchronizeD错误函数：as_vw_FlightChangeRecord() 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\AgentServiceBF.cs:行号 339
+
+2009-11-20 15:40:31
+操作数据库错误：超时时间已到。在操作完成之前超时时间已过或服务器未响应。
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 260
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.SynchronizeD错误函数：as_vw_FlightChangeRecord() 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\AgentServiceBF.cs:行号 339
+
+2009-11-20 15:41:09
+操作数据库错误：超时时间已到。在操作完成之前超时时间已过或服务器未响应。
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 260
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.SynchronizeD错误函数：as_vw_FlightChangeRecord() 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\AgentServiceBF.cs:行号 339
+

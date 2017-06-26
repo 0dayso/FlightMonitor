@@ -1,0 +1,1967 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.hnair.com/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://www.hnair.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.hnair.com/">
+      <s:element name="GetCRD">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strStaffID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCRDTyp" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strStart" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strEnd" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCRDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCRDResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCrewInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strStaffID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCrewInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCrewInfoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCrewRecords">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strStaffNm" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strTeam" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCrewRecordsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCrewRecordsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCrewInformation">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strStaffID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLoginId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCompany" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strTeam" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCrewType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strFLTCD" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCrewInformationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCrewInformationResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTrainBase">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strCOMPANYCD" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTrainBaseResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTrainBaseResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFleetInfo_SkillCat9">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strCrewType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strACGCD" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFleetInfo_SkillCat9Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetFleetInfo_SkillCat9Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFleetInfo_SkillCat8">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strACGID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFleetInfo_SkillCat8Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetFleetInfo_SkillCat8Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetICAO_Qualifier">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strCrewName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCompID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strTeamID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strFleetID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetICAO_QualifierResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetICAO_QualifierResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_ByLicenseType">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strCrewName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strStaffID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLoginId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCrewCat" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCompID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strTeamCD" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strFleetCD" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_ByLicenseTypeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBasicCrewInfo_ByLicenseTypeResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_ByTechSkillInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strCrewName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strStaffID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLoginId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCrewCat" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCompID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strTeamCD" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strFleetCD" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strValid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dtStartModify" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dtEndModify" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_ByTechSkillInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBasicCrewInfo_ByTechSkillInfoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_BySkillCat">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strCrewName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strStaffID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLoginId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCrewCat" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCompID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strTeamCD" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strFleetCD" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strValid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dtStartModify" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dtEndModify" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_BySkillCatResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBasicCrewInfo_BySkillCatResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_ByInternationSkill">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strCrewName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strStaffID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLoginId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCrewCat" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCompID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strTeamCD" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strFleetCD" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_ByInternationSkillResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBasicCrewInfo_ByInternationSkillResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_FlyingHours">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strStaffID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLoginId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCrwTyp" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCompID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strAcgid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strStartdate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strEndDate" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_FlyingHoursResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBasicCrewInfo_FlyingHoursResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCrewBasicInfo_SyncFH">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strCrewName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strStaffID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLoginId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCrwTyp" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCompID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strAcgid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dtStartModify" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dtEndModify" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCrewBasicInfo_SyncFHResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCrewBasicInfo_SyncFHResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCrewBasicInfo_QARHours">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strCrewName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strStaffID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCrwTyp" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCompID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strAcgid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strStartdate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strEndDate" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCrewBasicInfo_QARHoursResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCrewBasicInfo_QARHoursResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCrewBasicInfo_LeavesTrans">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strStaffID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCrewName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLoginID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="intCrewType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dtStartModify" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dtEndModify" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="intCompanyID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dtLeaveStart" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dtLeaveEnd" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCrewBasicInfo_LeavesTransResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCrewBasicInfo_LeavesTransResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetParam">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetParamResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetParamResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_Profile">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strStaffID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLoginId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dtStartModify" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dtEndModify" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_ProfileResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBasicCrewInfo_ProfileResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_Promotion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strStaffID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLoginId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_PromotionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBasicCrewInfo_PromotionResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_TechLicense">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strStaffID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLoginId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_TechLicenseResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBasicCrewInfo_TechLicenseResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_CabinLicense">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strStaffID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLoginId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_CabinLicenseResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBasicCrewInfo_CabinLicenseResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_Comments">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strStaffID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLoginId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_CommentsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBasicCrewInfo_CommentsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_LanguageSkill">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strStaffID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLoginId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_LanguageSkillResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBasicCrewInfo_LanguageSkillResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_EnglishSkill">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strStaffID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLoginId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_EnglishSkillResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBasicCrewInfo_EnglishSkillResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_BodyCheck">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strStaffID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLoginId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_BodyCheckResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBasicCrewInfo_BodyCheckResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_Visa">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strStaffID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLoginId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_VisaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBasicCrewInfo_VisaResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_Yellow">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strStaffID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLoginId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_YellowResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBasicCrewInfo_YellowResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_HTRNPASS">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strStaffID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLoginId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_HTRNPASSResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBasicCrewInfo_HTRNPASSResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_Lesson">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strStaffID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLoginId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_LessonResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBasicCrewInfo_LessonResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_TrainCabin">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strStaffID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLoginId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_TrainCabinResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBasicCrewInfo_TrainCabinResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_Annoucement_Oral">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strCompanyName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strStaffID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLoginId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dtGainDate" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_Annoucement_OralResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBasicCrewInfo_Annoucement_OralResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCrewBasicInfo_ICAOLevelDetails">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strStaffID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCrewName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLoginID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dtStartModify" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dtEndModify" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCrewBasicInfo_ICAOLevelDetailsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCrewBasicInfo_ICAOLevelDetailsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCrewBasicInfo_RosterAuditLog">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strStaffID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCrewName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLoginID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="intCrewType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strFlightNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dtDutyDate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dtStartModify" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dtEndModify" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCrewBasicInfo_RosterAuditLogResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCrewBasicInfo_RosterAuditLogResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSkillParam">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strCrewType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strACGCD" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSkillParamResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSkillParamResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetRankParameter">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strCrewType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetRankParameterResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetRankParameterResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCrewRank">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strCrewTypeID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strStaffID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strStaffName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strEffectiveDate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strExpiryDate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strTeamID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strRankID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strAcgGroupID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strStatus" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strComID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strSkillCatID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCrewRankResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCrewRankResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_ByTechAllSkill">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strCrewName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strStaffID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strLoginId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strCompID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strSkillCat" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strTeamCD" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strFleetCD" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strValid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dtStartModify" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dtEndModify" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBasicCrewInfo_ByTechAllSkillResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBasicCrewInfo_ByTechAllSkillResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetCRDSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCRD" />
+  </wsdl:message>
+  <wsdl:message name="GetCRDSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCRDResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCrewInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCrewInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetCrewInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCrewInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCrewRecordsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCrewRecords" />
+  </wsdl:message>
+  <wsdl:message name="GetCrewRecordsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCrewRecordsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCrewInformationSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCrewInformation" />
+  </wsdl:message>
+  <wsdl:message name="GetCrewInformationSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCrewInformationResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTrainBaseSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTrainBase" />
+  </wsdl:message>
+  <wsdl:message name="GetTrainBaseSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTrainBaseResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFleetInfo_SkillCat9SoapIn">
+    <wsdl:part name="parameters" element="tns:GetFleetInfo_SkillCat9" />
+  </wsdl:message>
+  <wsdl:message name="GetFleetInfo_SkillCat9SoapOut">
+    <wsdl:part name="parameters" element="tns:GetFleetInfo_SkillCat9Response" />
+  </wsdl:message>
+  <wsdl:message name="GetFleetInfo_SkillCat8SoapIn">
+    <wsdl:part name="parameters" element="tns:GetFleetInfo_SkillCat8" />
+  </wsdl:message>
+  <wsdl:message name="GetFleetInfo_SkillCat8SoapOut">
+    <wsdl:part name="parameters" element="tns:GetFleetInfo_SkillCat8Response" />
+  </wsdl:message>
+  <wsdl:message name="GetICAO_QualifierSoapIn">
+    <wsdl:part name="parameters" element="tns:GetICAO_Qualifier" />
+  </wsdl:message>
+  <wsdl:message name="GetICAO_QualifierSoapOut">
+    <wsdl:part name="parameters" element="tns:GetICAO_QualifierResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_ByLicenseTypeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_ByLicenseType" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_ByLicenseTypeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_ByLicenseTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_ByTechSkillInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_ByTechSkillInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_ByTechSkillInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_ByTechSkillInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_BySkillCatSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_BySkillCat" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_BySkillCatSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_BySkillCatResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_ByInternationSkillSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_ByInternationSkill" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_ByInternationSkillSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_ByInternationSkillResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_FlyingHoursSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_FlyingHours" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_FlyingHoursSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_FlyingHoursResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCrewBasicInfo_SyncFHSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCrewBasicInfo_SyncFH" />
+  </wsdl:message>
+  <wsdl:message name="GetCrewBasicInfo_SyncFHSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCrewBasicInfo_SyncFHResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCrewBasicInfo_QARHoursSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCrewBasicInfo_QARHours" />
+  </wsdl:message>
+  <wsdl:message name="GetCrewBasicInfo_QARHoursSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCrewBasicInfo_QARHoursResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCrewBasicInfo_LeavesTransSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCrewBasicInfo_LeavesTrans" />
+  </wsdl:message>
+  <wsdl:message name="GetCrewBasicInfo_LeavesTransSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCrewBasicInfo_LeavesTransResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetParamSoapIn">
+    <wsdl:part name="parameters" element="tns:GetParam" />
+  </wsdl:message>
+  <wsdl:message name="GetParamSoapOut">
+    <wsdl:part name="parameters" element="tns:GetParamResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_ProfileSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_Profile" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_ProfileSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_ProfileResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_PromotionSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_Promotion" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_PromotionSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_PromotionResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_TechLicenseSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_TechLicense" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_TechLicenseSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_TechLicenseResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_CabinLicenseSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_CabinLicense" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_CabinLicenseSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_CabinLicenseResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_CommentsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_Comments" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_CommentsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_CommentsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_LanguageSkillSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_LanguageSkill" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_LanguageSkillSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_LanguageSkillResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_EnglishSkillSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_EnglishSkill" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_EnglishSkillSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_EnglishSkillResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_BodyCheckSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_BodyCheck" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_BodyCheckSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_BodyCheckResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_VisaSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_Visa" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_VisaSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_VisaResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_YellowSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_Yellow" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_YellowSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_YellowResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_HTRNPASSSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_HTRNPASS" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_HTRNPASSSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_HTRNPASSResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_LessonSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_Lesson" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_LessonSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_LessonResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_TrainCabinSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_TrainCabin" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_TrainCabinSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_TrainCabinResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_Annoucement_OralSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_Annoucement_Oral" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_Annoucement_OralSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_Annoucement_OralResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCrewBasicInfo_ICAOLevelDetailsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCrewBasicInfo_ICAOLevelDetails" />
+  </wsdl:message>
+  <wsdl:message name="GetCrewBasicInfo_ICAOLevelDetailsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCrewBasicInfo_ICAOLevelDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCrewBasicInfo_RosterAuditLogSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCrewBasicInfo_RosterAuditLog" />
+  </wsdl:message>
+  <wsdl:message name="GetCrewBasicInfo_RosterAuditLogSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCrewBasicInfo_RosterAuditLogResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSkillParamSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSkillParam" />
+  </wsdl:message>
+  <wsdl:message name="GetSkillParamSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSkillParamResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetRankParameterSoapIn">
+    <wsdl:part name="parameters" element="tns:GetRankParameter" />
+  </wsdl:message>
+  <wsdl:message name="GetRankParameterSoapOut">
+    <wsdl:part name="parameters" element="tns:GetRankParameterResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCrewRankSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCrewRank" />
+  </wsdl:message>
+  <wsdl:message name="GetCrewRankSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCrewRankResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_ByTechAllSkillSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_ByTechAllSkill" />
+  </wsdl:message>
+  <wsdl:message name="GetBasicCrewInfo_ByTechAllSkillSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBasicCrewInfo_ByTechAllSkillResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ServiceSoap">
+    <wsdl:operation name="GetCRD">
+      <wsdl:input message="tns:GetCRDSoapIn" />
+      <wsdl:output message="tns:GetCRDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCrewInfo">
+      <wsdl:input message="tns:GetCrewInfoSoapIn" />
+      <wsdl:output message="tns:GetCrewInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCrewRecords">
+      <wsdl:input message="tns:GetCrewRecordsSoapIn" />
+      <wsdl:output message="tns:GetCrewRecordsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCrewInformation">
+      <wsdl:input message="tns:GetCrewInformationSoapIn" />
+      <wsdl:output message="tns:GetCrewInformationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTrainBase">
+      <wsdl:input message="tns:GetTrainBaseSoapIn" />
+      <wsdl:output message="tns:GetTrainBaseSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFleetInfo_SkillCat9">
+      <wsdl:input message="tns:GetFleetInfo_SkillCat9SoapIn" />
+      <wsdl:output message="tns:GetFleetInfo_SkillCat9SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFleetInfo_SkillCat8">
+      <wsdl:input message="tns:GetFleetInfo_SkillCat8SoapIn" />
+      <wsdl:output message="tns:GetFleetInfo_SkillCat8SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetICAO_Qualifier">
+      <wsdl:input message="tns:GetICAO_QualifierSoapIn" />
+      <wsdl:output message="tns:GetICAO_QualifierSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_ByLicenseType">
+      <wsdl:input message="tns:GetBasicCrewInfo_ByLicenseTypeSoapIn" />
+      <wsdl:output message="tns:GetBasicCrewInfo_ByLicenseTypeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_ByTechSkillInfo">
+      <wsdl:input message="tns:GetBasicCrewInfo_ByTechSkillInfoSoapIn" />
+      <wsdl:output message="tns:GetBasicCrewInfo_ByTechSkillInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_BySkillCat">
+      <wsdl:input message="tns:GetBasicCrewInfo_BySkillCatSoapIn" />
+      <wsdl:output message="tns:GetBasicCrewInfo_BySkillCatSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_ByInternationSkill">
+      <wsdl:input message="tns:GetBasicCrewInfo_ByInternationSkillSoapIn" />
+      <wsdl:output message="tns:GetBasicCrewInfo_ByInternationSkillSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_FlyingHours">
+      <wsdl:input message="tns:GetBasicCrewInfo_FlyingHoursSoapIn" />
+      <wsdl:output message="tns:GetBasicCrewInfo_FlyingHoursSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCrewBasicInfo_SyncFH">
+      <wsdl:input message="tns:GetCrewBasicInfo_SyncFHSoapIn" />
+      <wsdl:output message="tns:GetCrewBasicInfo_SyncFHSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCrewBasicInfo_QARHours">
+      <wsdl:input message="tns:GetCrewBasicInfo_QARHoursSoapIn" />
+      <wsdl:output message="tns:GetCrewBasicInfo_QARHoursSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCrewBasicInfo_LeavesTrans">
+      <wsdl:input message="tns:GetCrewBasicInfo_LeavesTransSoapIn" />
+      <wsdl:output message="tns:GetCrewBasicInfo_LeavesTransSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetParam">
+      <wsdl:input message="tns:GetParamSoapIn" />
+      <wsdl:output message="tns:GetParamSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_Profile">
+      <wsdl:input message="tns:GetBasicCrewInfo_ProfileSoapIn" />
+      <wsdl:output message="tns:GetBasicCrewInfo_ProfileSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_Promotion">
+      <wsdl:input message="tns:GetBasicCrewInfo_PromotionSoapIn" />
+      <wsdl:output message="tns:GetBasicCrewInfo_PromotionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_TechLicense">
+      <wsdl:input message="tns:GetBasicCrewInfo_TechLicenseSoapIn" />
+      <wsdl:output message="tns:GetBasicCrewInfo_TechLicenseSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_CabinLicense">
+      <wsdl:input message="tns:GetBasicCrewInfo_CabinLicenseSoapIn" />
+      <wsdl:output message="tns:GetBasicCrewInfo_CabinLicenseSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_Comments">
+      <wsdl:input message="tns:GetBasicCrewInfo_CommentsSoapIn" />
+      <wsdl:output message="tns:GetBasicCrewInfo_CommentsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_LanguageSkill">
+      <wsdl:input message="tns:GetBasicCrewInfo_LanguageSkillSoapIn" />
+      <wsdl:output message="tns:GetBasicCrewInfo_LanguageSkillSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_EnglishSkill">
+      <wsdl:input message="tns:GetBasicCrewInfo_EnglishSkillSoapIn" />
+      <wsdl:output message="tns:GetBasicCrewInfo_EnglishSkillSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_BodyCheck">
+      <wsdl:input message="tns:GetBasicCrewInfo_BodyCheckSoapIn" />
+      <wsdl:output message="tns:GetBasicCrewInfo_BodyCheckSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_Visa">
+      <wsdl:input message="tns:GetBasicCrewInfo_VisaSoapIn" />
+      <wsdl:output message="tns:GetBasicCrewInfo_VisaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_Yellow">
+      <wsdl:input message="tns:GetBasicCrewInfo_YellowSoapIn" />
+      <wsdl:output message="tns:GetBasicCrewInfo_YellowSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_HTRNPASS">
+      <wsdl:input message="tns:GetBasicCrewInfo_HTRNPASSSoapIn" />
+      <wsdl:output message="tns:GetBasicCrewInfo_HTRNPASSSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_Lesson">
+      <wsdl:input message="tns:GetBasicCrewInfo_LessonSoapIn" />
+      <wsdl:output message="tns:GetBasicCrewInfo_LessonSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_TrainCabin">
+      <wsdl:input message="tns:GetBasicCrewInfo_TrainCabinSoapIn" />
+      <wsdl:output message="tns:GetBasicCrewInfo_TrainCabinSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_Annoucement_Oral">
+      <wsdl:input message="tns:GetBasicCrewInfo_Annoucement_OralSoapIn" />
+      <wsdl:output message="tns:GetBasicCrewInfo_Annoucement_OralSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCrewBasicInfo_ICAOLevelDetails">
+      <wsdl:input message="tns:GetCrewBasicInfo_ICAOLevelDetailsSoapIn" />
+      <wsdl:output message="tns:GetCrewBasicInfo_ICAOLevelDetailsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCrewBasicInfo_RosterAuditLog">
+      <wsdl:input message="tns:GetCrewBasicInfo_RosterAuditLogSoapIn" />
+      <wsdl:output message="tns:GetCrewBasicInfo_RosterAuditLogSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSkillParam">
+      <wsdl:input message="tns:GetSkillParamSoapIn" />
+      <wsdl:output message="tns:GetSkillParamSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRankParameter">
+      <wsdl:input message="tns:GetRankParameterSoapIn" />
+      <wsdl:output message="tns:GetRankParameterSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCrewRank">
+      <wsdl:input message="tns:GetCrewRankSoapIn" />
+      <wsdl:output message="tns:GetCrewRankSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_ByTechAllSkill">
+      <wsdl:input message="tns:GetBasicCrewInfo_ByTechAllSkillSoapIn" />
+      <wsdl:output message="tns:GetBasicCrewInfo_ByTechAllSkillSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceSoap" type="tns:ServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetCRD">
+      <soap:operation soapAction="http://www.hnair.com/GetCRD" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCrewInfo">
+      <soap:operation soapAction="http://www.hnair.com/GetCrewInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCrewRecords">
+      <soap:operation soapAction="http://www.hnair.com/GetCrewRecords" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCrewInformation">
+      <soap:operation soapAction="http://www.hnair.com/GetCrewInformation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTrainBase">
+      <soap:operation soapAction="http://www.hnair.com/GetTrainBase" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFleetInfo_SkillCat9">
+      <soap:operation soapAction="http://www.hnair.com/GetFleetInfo_SkillCat9" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFleetInfo_SkillCat8">
+      <soap:operation soapAction="http://www.hnair.com/GetFleetInfo_SkillCat8" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetICAO_Qualifier">
+      <soap:operation soapAction="http://www.hnair.com/GetICAO_Qualifier" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_ByLicenseType">
+      <soap:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_ByLicenseType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_ByTechSkillInfo">
+      <soap:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_ByTechSkillInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_BySkillCat">
+      <soap:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_BySkillCat" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_ByInternationSkill">
+      <soap:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_ByInternationSkill" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_FlyingHours">
+      <soap:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_FlyingHours" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCrewBasicInfo_SyncFH">
+      <soap:operation soapAction="http://www.hnair.com/GetCrewBasicInfo_SyncFH" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCrewBasicInfo_QARHours">
+      <soap:operation soapAction="http://www.hnair.com/GetCrewBasicInfo_QARHours" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCrewBasicInfo_LeavesTrans">
+      <soap:operation soapAction="http://www.hnair.com/GetCrewBasicInfo_LeavesTrans" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetParam">
+      <soap:operation soapAction="http://www.hnair.com/GetParam" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_Profile">
+      <soap:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_Profile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_Promotion">
+      <soap:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_Promotion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_TechLicense">
+      <soap:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_TechLicense" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_CabinLicense">
+      <soap:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_CabinLicense" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_Comments">
+      <soap:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_Comments" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_LanguageSkill">
+      <soap:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_LanguageSkill" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_EnglishSkill">
+      <soap:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_EnglishSkill" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_BodyCheck">
+      <soap:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_BodyCheck" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_Visa">
+      <soap:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_Visa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_Yellow">
+      <soap:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_Yellow" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_HTRNPASS">
+      <soap:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_HTRNPASS" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_Lesson">
+      <soap:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_Lesson" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_TrainCabin">
+      <soap:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_TrainCabin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_Annoucement_Oral">
+      <soap:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_Annoucement_Oral" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCrewBasicInfo_ICAOLevelDetails">
+      <soap:operation soapAction="http://www.hnair.com/GetCrewBasicInfo_ICAOLevelDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCrewBasicInfo_RosterAuditLog">
+      <soap:operation soapAction="http://www.hnair.com/GetCrewBasicInfo_RosterAuditLog" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSkillParam">
+      <soap:operation soapAction="http://www.hnair.com/GetSkillParam" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRankParameter">
+      <soap:operation soapAction="http://www.hnair.com/GetRankParameter" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCrewRank">
+      <soap:operation soapAction="http://www.hnair.com/GetCrewRank" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_ByTechAllSkill">
+      <soap:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_ByTechAllSkill" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceSoap12" type="tns:ServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetCRD">
+      <soap12:operation soapAction="http://www.hnair.com/GetCRD" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCrewInfo">
+      <soap12:operation soapAction="http://www.hnair.com/GetCrewInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCrewRecords">
+      <soap12:operation soapAction="http://www.hnair.com/GetCrewRecords" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCrewInformation">
+      <soap12:operation soapAction="http://www.hnair.com/GetCrewInformation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTrainBase">
+      <soap12:operation soapAction="http://www.hnair.com/GetTrainBase" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFleetInfo_SkillCat9">
+      <soap12:operation soapAction="http://www.hnair.com/GetFleetInfo_SkillCat9" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFleetInfo_SkillCat8">
+      <soap12:operation soapAction="http://www.hnair.com/GetFleetInfo_SkillCat8" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetICAO_Qualifier">
+      <soap12:operation soapAction="http://www.hnair.com/GetICAO_Qualifier" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_ByLicenseType">
+      <soap12:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_ByLicenseType" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_ByTechSkillInfo">
+      <soap12:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_ByTechSkillInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_BySkillCat">
+      <soap12:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_BySkillCat" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_ByInternationSkill">
+      <soap12:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_ByInternationSkill" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_FlyingHours">
+      <soap12:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_FlyingHours" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCrewBasicInfo_SyncFH">
+      <soap12:operation soapAction="http://www.hnair.com/GetCrewBasicInfo_SyncFH" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCrewBasicInfo_QARHours">
+      <soap12:operation soapAction="http://www.hnair.com/GetCrewBasicInfo_QARHours" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCrewBasicInfo_LeavesTrans">
+      <soap12:operation soapAction="http://www.hnair.com/GetCrewBasicInfo_LeavesTrans" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetParam">
+      <soap12:operation soapAction="http://www.hnair.com/GetParam" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_Profile">
+      <soap12:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_Profile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_Promotion">
+      <soap12:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_Promotion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_TechLicense">
+      <soap12:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_TechLicense" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_CabinLicense">
+      <soap12:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_CabinLicense" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_Comments">
+      <soap12:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_Comments" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_LanguageSkill">
+      <soap12:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_LanguageSkill" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_EnglishSkill">
+      <soap12:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_EnglishSkill" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_BodyCheck">
+      <soap12:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_BodyCheck" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_Visa">
+      <soap12:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_Visa" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_Yellow">
+      <soap12:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_Yellow" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_HTRNPASS">
+      <soap12:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_HTRNPASS" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_Lesson">
+      <soap12:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_Lesson" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_TrainCabin">
+      <soap12:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_TrainCabin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_Annoucement_Oral">
+      <soap12:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_Annoucement_Oral" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCrewBasicInfo_ICAOLevelDetails">
+      <soap12:operation soapAction="http://www.hnair.com/GetCrewBasicInfo_ICAOLevelDetails" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCrewBasicInfo_RosterAuditLog">
+      <soap12:operation soapAction="http://www.hnair.com/GetCrewBasicInfo_RosterAuditLog" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSkillParam">
+      <soap12:operation soapAction="http://www.hnair.com/GetSkillParam" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRankParameter">
+      <soap12:operation soapAction="http://www.hnair.com/GetRankParameter" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCrewRank">
+      <soap12:operation soapAction="http://www.hnair.com/GetCrewRank" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBasicCrewInfo_ByTechAllSkill">
+      <soap12:operation soapAction="http://www.hnair.com/GetBasicCrewInfo_ByTechAllSkill" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="ServiceSoap" binding="tns:ServiceSoap">
+      <soap:address location="http://icms.hnair.net:100/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceSoap12" binding="tns:ServiceSoap12">
+      <soap12:address location="http://icms.hnair.net:100/Service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

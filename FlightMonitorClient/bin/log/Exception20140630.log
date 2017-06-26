@@ -1,0 +1,111 @@
+2014-6-30 14:32:05
+操作数据库错误：列名 'cniGuaranteeRecordID' 无效。
+列名 'cniGuaranteeRecordCaptionID' 不明确。
+列名 'cncDATOP' 不明确。
+列名 'cnvcFLTID' 不明确。
+列名 'cniLegNO' 不明确。
+列名 'cnvcAC' 不明确。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeRecordDAF.GetD错误函数：aList(Str
+程序位置：g cncSt错误函数：ion, Str
+程序位置：g cncDATOP, Str
+程序位置：g cnvcFLTID, Int32 cniLegNO, Str
+程序位置：g cnvcAC, Int32 cniGuaranteeRecordCaptionID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\GuaranteeRecordDAF.cs:行号 76
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeRecordBF.GetD错误函数：aList(Str
+程序位置：g cncSt错误函数：ion, Str
+程序位置：g cncDATOP, Str
+程序位置：g cnvcFLTID, Int32 cniLegNO, Str
+程序位置：g cnvcAC, Int32 cniGuaranteeRecordCaptionID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\GuaranteeRecordBF.cs:行号 72
+
+2014-6-30 14:32:08
+操作数据库错误：列名 'cniGuaranteeRecordID' 无效。
+列名 'cniGuaranteeRecordCaptionID' 不明确。
+列名 'cncDATOP' 不明确。
+列名 'cnvcFLTID' 不明确。
+列名 'cniLegNO' 不明确。
+列名 'cnvcAC' 不明确。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeRecordDAF.GetD错误函数：aList(Str
+程序位置：g cncSt错误函数：ion, Str
+程序位置：g cncDATOP, Str
+程序位置：g cnvcFLTID, Int32 cniLegNO, Str
+程序位置：g cnvcAC, Int32 cniGuaranteeRecordCaptionID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\GuaranteeRecordDAF.cs:行号 76
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeRecordBF.GetD错误函数：aList(Str
+程序位置：g cncSt错误函数：ion, Str
+程序位置：g cncDATOP, Str
+程序位置：g cnvcFLTID, Int32 cniLegNO, Str
+程序位置：g cnvcAC, Int32 cniGuaranteeRecordCaptionID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\GuaranteeRecordBF.cs:行号 72
+
+2014-6-30 14:32:10
+操作数据库错误：列名 'cniGuaranteeRecordID' 无效。
+列名 'cniGuaranteeRecordCaptionID' 不明确。
+列名 'cncDATOP' 不明确。
+列名 'cnvcFLTID' 不明确。
+列名 'cniLegNO' 不明确。
+列名 'cnvcAC' 不明确。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeRecordDAF.GetD错误函数：aList(Str
+程序位置：g cncSt错误函数：ion, Str
+程序位置：g cncDATOP, Str
+程序位置：g cnvcFLTID, Int32 cniLegNO, Str
+程序位置：g cnvcAC, Int32 cniGuaranteeRecordCaptionID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\GuaranteeRecordDAF.cs:行号 76
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeRecordBF.GetD错误函数：aList(Str
+程序位置：g cncSt错误函数：ion, Str
+程序位置：g cncDATOP, Str
+程序位置：g cnvcFLTID, Int32 cniLegNO, Str
+程序位置：g cnvcAC, Int32 cniGuaranteeRecordCaptionID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\GuaranteeRecordBF.cs:行号 72
+
+2014-6-30 14:33:56
+操作数据库错误：列名 'cniGuaranteeRecordID' 无效。
+列名 'cniGuaranteeRecordCaptionID' 不明确。
+列名 'cncDATOP' 不明确。
+列名 'cnvcFLTID' 不明确。
+列名 'cniLegNO' 不明确。
+列名 'cnvcAC' 不明确。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeRecordDAF.GetD错误函数：aList(Str
+程序位置：g cncSt错误函数：ion, Str
+程序位置：g cncDATOP, Str
+程序位置：g cnvcFLTID, Int32 cniLegNO, Str
+程序位置：g cnvcAC, Int32 cniGuaranteeRecordCaptionID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\GuaranteeRecordDAF.cs:行号 76
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeRecordBF.GetD错误函数：aList(Str
+程序位置：g cncSt错误函数：ion, Str
+程序位置：g cncDATOP, Str
+程序位置：g cnvcFLTID, Int32 cniLegNO, Str
+程序位置：g cnvcAC, Int32 cniGuaranteeRecordCaptionID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\GuaranteeRecordBF.cs:行号 72
+
+2014-6-30 14:36:19
+操作数据库错误：列名 'cniGuaranteeRecordID' 无效。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeRecordDAF.GetD错误函数：aList(Str
+程序位置：g cncSt错误函数：ion, Str
+程序位置：g cncDATOP, Str
+程序位置：g cnvcFLTID, Int32 cniLegNO, Str
+程序位置：g cnvcAC, Int32 cniGuaranteeRecordCaptionID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\GuaranteeRecordDAF.cs:行号 76
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeRecordBF.GetD错误函数：aList(Str
+程序位置：g cncSt错误函数：ion, Str
+程序位置：g cncDATOP, Str
+程序位置：g cnvcFLTID, Int32 cniLegNO, Str
+程序位置：g cnvcAC, Int32 cniGuaranteeRecordCaptionID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\GuaranteeRecordBF.cs:行号 72
+
+2014-6-30 14:36:28
+操作数据库错误：列名 'cniGuaranteeRecordID' 无效。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeRecordDAF.GetD错误函数：aList(Str
+程序位置：g cncSt错误函数：ion, Str
+程序位置：g cncDATOP, Str
+程序位置：g cnvcFLTID, Int32 cniLegNO, Str
+程序位置：g cnvcAC, Int32 cniGuaranteeRecordCaptionID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\GuaranteeRecordDAF.cs:行号 76
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeRecordBF.GetD错误函数：aList(Str
+程序位置：g cncSt错误函数：ion, Str
+程序位置：g cncDATOP, Str
+程序位置：g cnvcFLTID, Int32 cniLegNO, Str
+程序位置：g cnvcAC, Int32 cniGuaranteeRecordCaptionID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\GuaranteeRecordBF.cs:行号 72
+
+2014-6-30 14:37:41
+操作数据库错误：列名 'cniGuaranteeRecordID' 无效。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeRecordDAF.GetD错误函数：aList(Str
+程序位置：g cncSt错误函数：ion, Str
+程序位置：g cncDATOP, Str
+程序位置：g cnvcFLTID, Int32 cniLegNO, Str
+程序位置：g cnvcAC, Int32 cniGuaranteeRecordCaptionID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\GuaranteeRecordDAF.cs:行号 76
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeRecordBF.GetD错误函数：aList(Str
+程序位置：g cncSt错误函数：ion, Str
+程序位置：g cncDATOP, Str
+程序位置：g cnvcFLTID, Int32 cniLegNO, Str
+程序位置：g cnvcAC, Int32 cniGuaranteeRecordCaptionID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\GuaranteeRecordBF.cs:行号 72
+

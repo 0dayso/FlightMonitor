@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStationFlights">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dateTimeBM" type="tns:DateTimeBM" />
+            <s:element minOccurs="0" maxOccurs="1" name="stationBM" type="tns:StationBM" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DateTimeBM">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="StartDateTime" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EndDateTime" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="StationBM">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="StationInforId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ThreeCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="StationName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AirportName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CommanderOfficeName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="StationSignInFlag" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="DayLine" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="DelayTimeLine" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="JoinTimeLine" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="DisconnectTimeLine" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetStationFlightsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetStationFlightsResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFlightsByPosition">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dateTimeBM" type="tns:DateTimeBM" />
+            <s:element minOccurs="0" maxOccurs="1" name="positionNameBM" type="tns:PositionNameBM" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="PositionNameBM">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="PositionID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="PositionName" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetFlightsByPositionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetFlightsByPositionResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLastGuaranteeChangeRecords">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="iLastRecordNo" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="dateTimeBM" type="tns:DateTimeBM" />
+            <s:element minOccurs="0" maxOccurs="1" name="stationBM" type="tns:StationBM" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLastGuaranteeChangeRecordsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetLastGuaranteeChangeRecordsResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetChangeRecords">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dateTimeBM" type="tns:DateTimeBM" />
+            <s:element minOccurs="0" maxOccurs="1" name="stationBM" type="tns:StationBM" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetChangeRecordsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetChangeRecordsResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLastWatchChangeRecords">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="iLastRecordNo" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="dateTimeBM" type="tns:DateTimeBM" />
+            <s:element minOccurs="0" maxOccurs="1" name="positionNameBM" type="tns:PositionNameBM" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLastWatchChangeRecordsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetLastWatchChangeRecordsResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetStationFlightsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetStationFlights" />
+  </wsdl:message>
+  <wsdl:message name="GetStationFlightsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetStationFlightsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFlightsByPositionSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFlightsByPosition" />
+  </wsdl:message>
+  <wsdl:message name="GetFlightsByPositionSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFlightsByPositionResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetLastGuaranteeChangeRecordsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetLastGuaranteeChangeRecords" />
+  </wsdl:message>
+  <wsdl:message name="GetLastGuaranteeChangeRecordsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetLastGuaranteeChangeRecordsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetChangeRecordsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetChangeRecords" />
+  </wsdl:message>
+  <wsdl:message name="GetChangeRecordsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetChangeRecordsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetLastWatchChangeRecordsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetLastWatchChangeRecords" />
+  </wsdl:message>
+  <wsdl:message name="GetLastWatchChangeRecordsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetLastWatchChangeRecordsResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ServiceSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStationFlights">
+      <wsdl:input message="tns:GetStationFlightsSoapIn" />
+      <wsdl:output message="tns:GetStationFlightsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFlightsByPosition">
+      <wsdl:input message="tns:GetFlightsByPositionSoapIn" />
+      <wsdl:output message="tns:GetFlightsByPositionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLastGuaranteeChangeRecords">
+      <wsdl:input message="tns:GetLastGuaranteeChangeRecordsSoapIn" />
+      <wsdl:output message="tns:GetLastGuaranteeChangeRecordsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetChangeRecords">
+      <wsdl:input message="tns:GetChangeRecordsSoapIn" />
+      <wsdl:output message="tns:GetChangeRecordsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLastWatchChangeRecords">
+      <wsdl:input message="tns:GetLastWatchChangeRecordsSoapIn" />
+      <wsdl:output message="tns:GetLastWatchChangeRecordsSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceSoap" type="tns:ServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStationFlights">
+      <soap:operation soapAction="http://tempuri.org/GetStationFlights" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFlightsByPosition">
+      <soap:operation soapAction="http://tempuri.org/GetFlightsByPosition" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLastGuaranteeChangeRecords">
+      <soap:operation soapAction="http://tempuri.org/GetLastGuaranteeChangeRecords" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetChangeRecords">
+      <soap:operation soapAction="http://tempuri.org/GetChangeRecords" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLastWatchChangeRecords">
+      <soap:operation soapAction="http://tempuri.org/GetLastWatchChangeRecords" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceSoap12" type="tns:ServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStationFlights">
+      <soap12:operation soapAction="http://tempuri.org/GetStationFlights" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFlightsByPosition">
+      <soap12:operation soapAction="http://tempuri.org/GetFlightsByPosition" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLastGuaranteeChangeRecords">
+      <soap12:operation soapAction="http://tempuri.org/GetLastGuaranteeChangeRecords" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetChangeRecords">
+      <soap12:operation soapAction="http://tempuri.org/GetChangeRecords" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLastWatchChangeRecords">
+      <soap12:operation soapAction="http://tempuri.org/GetLastWatchChangeRecords" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="ServiceSoap" binding="tns:ServiceSoap">
+      <soap:address location="http://10.2.104.14/FlightMonitor/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceSoap12" binding="tns:ServiceSoap12">
+      <soap12:address location="http://10.2.104.14/FlightMonitor/Service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

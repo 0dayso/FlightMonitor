@@ -1,0 +1,80 @@
+2007-7-14 0:39:03
+业务逻辑处理错误：“AirSoft.FlightMonitor.FlightMonitorBM.SysConstBM”的类型初始值设定项引发异常。
+   在 AirSoft.FlightMonitor.FlightMonitorDA.AccountDAF.GetAccountByUserId(Str
+程序位置：g strUserId) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\AccountDAF.cs:行号 245
+   在 AirSoft.FlightMonitor.FlightMonitorBR.AccountBR.LogOn(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBR\AccountBR.cs:行号 40
+   在 AirSoft.FlightMonitor.FlightMonitorBF.AccountBF.LogOn(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\AccountBF.cs:行号 199
+
+2007-7-14 0:39:07
+业务逻辑处理错误：“AirSoft.FlightMonitor.FlightMonitorBM.SysConstBM”的类型初始值设定项引发异常。
+   在 AirSoft.FlightMonitor.FlightMonitorDA.AccountDAF.GetAccountByUserId(Str
+程序位置：g strUserId) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\AccountDAF.cs:行号 245
+   在 AirSoft.FlightMonitor.FlightMonitorBR.AccountBR.LogOn(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBR\AccountBR.cs:行号 40
+   在 AirSoft.FlightMonitor.FlightMonitorBF.AccountBF.LogOn(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\AccountBF.cs:行号 199
+
+2007-7-14 0:42:51
+业务逻辑处理错误：“AirSoft.FlightMonitor.FlightMonitorBM.SysConstBM”的类型初始值设定项引发异常。
+   在 AirSoft.FlightMonitor.FlightMonitorDA.AccountDAF.GetAccountByUserId(Str
+程序位置：g strUserId) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\AccountDAF.cs:行号 245
+   在 AirSoft.FlightMonitor.FlightMonitorBR.AccountBR.LogOn(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBR\AccountBR.cs:行号 40
+   在 AirSoft.FlightMonitor.FlightMonitorBF.AccountBF.LogOn(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\AccountBF.cs:行号 199
+
+2007-7-14 0:43:11
+业务逻辑处理错误：“AirSoft.FlightMonitor.FlightMonitorBM.SysConstBM”的类型初始值设定项引发异常。
+   在 AirSoft.FlightMonitor.FlightMonitorDA.AccountDAF.GetAccountByUserId(Str
+程序位置：g strUserId) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\AccountDAF.cs:行号 245
+   在 AirSoft.FlightMonitor.FlightMonitorBR.AccountBR.LogOn(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBR\AccountBR.cs:行号 40
+   在 AirSoft.FlightMonitor.FlightMonitorBF.AccountBF.LogOn(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\AccountBF.cs:行号 199
+
+2007-7-14 0:43:59
+业务逻辑处理错误：“AirSoft.FlightMonitor.FlightMonitorBM.SysConstBM”的类型初始值设定项引发异常。
+   在 AirSoft.FlightMonitor.FlightMonitorDA.AccountDAF.GetAccountByUserId(Str
+程序位置：g strUserId) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\AccountDAF.cs:行号 245
+   在 AirSoft.FlightMonitor.FlightMonitorBR.AccountBR.LogOn(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBR\AccountBR.cs:行号 40
+   在 AirSoft.FlightMonitor.FlightMonitorBF.AccountBF.LogOn(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\AccountBF.cs:行号 199
+
+2007-7-14 0:44:05
+业务逻辑处理错误：“AirSoft.FlightMonitor.FlightMonitorBM.SysConstBM”的类型初始值设定项引发异常。
+   在 AirSoft.FlightMonitor.FlightMonitorDA.AccountDAF.GetAccountByUserId(Str
+程序位置：g strUserId) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\AccountDAF.cs:行号 245
+   在 AirSoft.FlightMonitor.FlightMonitorBR.AccountBR.LogOn(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBR\AccountBR.cs:行号 40
+   在 AirSoft.FlightMonitor.FlightMonitorBF.AccountBF.LogOn(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\AccountBF.cs:行号 199
+
+2007-7-14 0:47:54
+业务逻辑处理错误：“AirSoft.FlightMonitor.FlightMonitorBM.SysConstBM”的类型初始值设定项引发异常。
+   在 AirSoft.FlightMonitor.FlightMonitorDA.AccountDAF.GetAccountByUserId(Str
+程序位置：g strUserId) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\AccountDAF.cs:行号 245
+   在 AirSoft.FlightMonitor.FlightMonitorBR.AccountBR.LogOn(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBR\AccountBR.cs:行号 40
+   在 AirSoft.FlightMonitor.FlightMonitorBF.AccountBF.LogOn(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\AccountBF.cs:行号 199
+
+2007-7-14 0:48:46
+业务逻辑处理错误：“AirSoft.FlightMonitor.FlightMonitorBM.SysConstBM”的类型初始值设定项引发异常。
+   在 AirSoft.FlightMonitor.FlightMonitorDA.AccountDAF.GetAccountByUserId(Str
+程序位置：g strUserId) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\AccountDAF.cs:行号 245
+   在 AirSoft.FlightMonitor.FlightMonitorBR.AccountBR.LogOn(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBR\AccountBR.cs:行号 40
+   在 AirSoft.FlightMonitor.FlightMonitorBF.AccountBF.LogOn(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\AccountBF.cs:行号 199
+
+2007-7-14 1:08:29
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose() 位置 D:\workspace\14代码实现\Public\D错误函数：aHelper\SqlD错误函数：abase.cs:行号 87
+   在 AirSoft.FlightMonitor.FlightMonitorDA.CrewSignInDAF.GetCrewSignIn(Str
+程序位置：g strQueryTime, Str
+程序位置：g strFlightNo, Str
+程序位置：g strDEPSTN) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\CrewSignInDAF.cs:行号 53
+   在 AirSoft.FlightMonitor.FlightMonitorBF.CrewSignInBF.GetCrewSignIn(Str
+程序位置：g strQueryTime, Str
+程序位置：g strFlightNo, Str
+程序位置：g strDEPSTN) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\CrewSignInBF.cs:行号 31
+
+2007-7-14 1:08:39
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose() 位置 D:\workspace\14代码实现\Public\D错误函数：aHelper\SqlD错误函数：abase.cs:行号 87
+   在 AirSoft.FlightMonitor.FlightMonitorDA.CrewSignInDAF.GetStewardSignIn(Str
+程序位置：g strQueryTime, Str
+程序位置：g strFlightNo, Str
+程序位置：g strDEPSTN) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\CrewSignInDAF.cs:行号 114
+   在 AirSoft.FlightMonitor.FlightMonitorBF.CrewSignInBF.GetStewardSignIn(Str
+程序位置：g strQueryTime, Str
+程序位置：g strFlightNo, Str
+程序位置：g strDEPSTN) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\CrewSignInBF.cs:行号 78
+

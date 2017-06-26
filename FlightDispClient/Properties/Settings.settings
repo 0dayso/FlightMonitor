@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AirSoft.FlightMonitor.FlightDispClient.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="FlightDispClient_CompFP_Plan" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://10.2.104.250:4680/jetplan/services/Plan</Value>
+    </Setting>
+    <Setting Name="AirSoft_FlightMonitor_FlightDispClient_CompFP_Plan" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://10.2.104.250:4680/jetplan/services/Plan</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

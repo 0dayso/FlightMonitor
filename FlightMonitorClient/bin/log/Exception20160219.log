@@ -1,0 +1,27 @@
+2016-2-19 11:16:39
+操作数据库错误：超时时间已到。在操作完成之前超时时间已过或服务器未响应。
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetChangeRecordsByFlightNo(D错误函数：eTimeBM d错误函数：eTimeBM, Str
+程序位置：g strFlightNo, Str
+程序位置：g strChangeReason) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\ChangeRecordDAF.cs:行号 214
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetChangeRecordsByFlightNo(D错误函数：eTimeBM d错误函数：eTimeBM, Str
+程序位置：g strFlightNo, Str
+程序位置：g strChangeReason) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\ChangeRecordBF.cs:行号 201
+
+2016-2-19 11:17:42
+操作数据库错误：超时时间已到。在操作完成之前超时时间已过或服务器未响应。
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetChangeRecordsByFlightNo(D错误函数：eTimeBM d错误函数：eTimeBM, Str
+程序位置：g strFlightNo, Str
+程序位置：g strChangeReason) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\ChangeRecordDAF.cs:行号 214
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetChangeRecordsByFlightNo(D错误函数：eTimeBM d错误函数：eTimeBM, Str
+程序位置：g strFlightNo, Str
+程序位置：g strChangeReason) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\ChangeRecordBF.cs:行号 201
+
+2016-2-19 11:46:43
+操作数据库错误：超时时间已到。在操作完成之前超时时间已过或服务器未响应。
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetChangeRecordsByFlightNo(D错误函数：eTimeBM d错误函数：eTimeBM, Str
+程序位置：g strFlightNo, Str
+程序位置：g strChangeReason) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\ChangeRecordDAF.cs:行号 214
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetChangeRecordsByFlightNo(D错误函数：eTimeBM d错误函数：eTimeBM, Str
+程序位置：g strFlightNo, Str
+程序位置：g strChangeReason) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\ChangeRecordBF.cs:行号 201
+

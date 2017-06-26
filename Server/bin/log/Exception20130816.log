@@ -1,0 +1,7 @@
+2013-8-16 17:42:34
+操作数据库错误：事务(进程 ID 81)与另一个进程被死锁在 锁 | 通信缓冲区 资源上，并且已被选作死锁牺牲品。请重新运行该事务。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetJo
+程序位置：FlightNo(D错误函数：eTimeBM d错误函数：eTimeBM, AccountBM accountBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor_New\FlightMonitorDA\GuaranteeInforDAF.cs:行号 724
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetJo
+程序位置：FlightNo(D错误函数：eTimeBM d错误函数：eTimeBM, AccountBM accountBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor_New\FlightMonitorBF\GuaranteeInforBF.cs:行号 476
+

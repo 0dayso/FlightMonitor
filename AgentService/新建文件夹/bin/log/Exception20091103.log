@@ -1,0 +1,814 @@
+2009-11-3 17:07:15
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 390
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 684
+
+2009-11-3 17:07:15
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 812
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 552
+
+2009-11-3 17:07:15
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 264
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 202
+
+2009-11-3 17:07:15
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 390
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 684
+
+2009-11-3 17:07:15
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 812
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 552
+
+2009-11-3 17:07:15
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 264
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 202
+
+2009-11-3 17:07:35
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 390
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 684
+
+2009-11-3 17:07:35
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 812
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 552
+
+2009-11-3 17:07:35
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 264
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 202
+
+2009-11-3 17:07:55
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 390
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 684
+
+2009-11-3 17:07:55
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 812
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 552
+
+2009-11-3 17:07:55
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 264
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 202
+
+2009-11-3 17:16:18
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 390
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 684
+
+2009-11-3 17:16:18
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 812
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 552
+
+2009-11-3 17:16:18
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 264
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 202
+
+2009-11-3 17:16:18
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 390
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 684
+
+2009-11-3 17:16:18
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 812
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 552
+
+2009-11-3 17:16:18
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 264
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 202
+
+2009-11-3 17:16:38
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 390
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 684
+
+2009-11-3 17:16:38
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 812
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 552
+
+2009-11-3 17:16:38
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 264
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 202
+
+2009-11-3 17:16:58
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 390
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 684
+
+2009-11-3 17:16:58
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 812
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 552
+
+2009-11-3 17:16:58
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 264
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 202
+
+2009-11-3 17:19:45
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 390
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 684
+
+2009-11-3 17:19:45
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 812
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 552
+
+2009-11-3 17:19:45
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 264
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 202
+
+2009-11-3 17:26:14
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 390
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 684
+
+2009-11-3 17:26:14
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 812
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 552
+
+2009-11-3 17:26:14
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 264
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 202
+
+2009-11-3 17:26:14
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 390
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 684
+
+2009-11-3 17:26:14
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 812
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 552
+
+2009-11-3 17:26:14
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 264
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 202
+
+2009-11-3 17:26:34
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 390
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 684
+
+2009-11-3 17:26:34
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 812
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 552
+
+2009-11-3 17:26:34
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 264
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 202
+
+2009-11-3 17:27:14
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 390
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 684
+
+2009-11-3 17:27:14
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 812
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 552
+
+2009-11-3 17:27:14
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 264
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 202
+
+2009-11-3 17:27:14
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 390
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 684
+
+2009-11-3 17:27:14
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 812
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 552
+
+2009-11-3 17:27:14
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 264
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 202
+
+2009-11-3 17:27:34
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 390
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 684
+
+2009-11-3 17:27:34
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 812
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 552
+
+2009-11-3 17:27:34
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 264
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 202
+
+2009-11-3 17:32:39
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 390
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 684
+
+2009-11-3 17:32:39
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 812
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 552
+
+2009-11-3 17:32:39
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 264
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 202
+
+2009-11-3 17:32:43
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 390
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 684
+
+2009-11-3 17:32:43
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 812
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 552
+
+2009-11-3 17:32:43
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 264
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 202
+
+2009-11-3 17:40:46
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 390
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 684
+
+2009-11-3 17:40:46
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 812
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 552
+
+2009-11-3 17:40:46
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 264
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 202
+
+2009-11-3 17:40:53
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 390
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 684
+
+2009-11-3 17:40:53
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 812
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 552
+
+2009-11-3 17:40:53
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 264
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 202
+
+2009-11-3 17:42:01
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 390
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 684
+
+2009-11-3 17:42:01
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 812
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 552
+
+2009-11-3 17:42:01
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 264
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 202
+
+2009-11-3 17:53:51
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 390
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 684
+
+2009-11-3 17:53:51
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 812
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 552
+
+2009-11-3 17:53:51
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 264
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 202
+
+2009-11-3 17:53:51
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 390
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 684
+
+2009-11-3 17:53:51
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 812
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 552
+
+2009-11-3 17:53:51
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 264
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 202
+
+2009-11-3 17:54:11
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 390
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 684
+
+2009-11-3 17:54:11
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 812
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 552
+
+2009-11-3 17:54:11
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 264
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 202
+
+2009-11-3 17:55:17
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 390
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 684
+
+2009-11-3 17:55:17
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 812
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 552
+
+2009-11-3 17:55:17
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 264
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 202
+
+2009-11-3 17:55:17
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 390
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 684
+
+2009-11-3 17:55:17
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 812
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 552
+
+2009-11-3 17:55:17
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 264
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 202
+
+2009-11-3 17:55:37
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 390
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 684
+
+2009-11-3 17:55:37
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 812
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 552
+
+2009-11-3 17:55:37
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 264
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 202
+
+2009-11-3 17:55:57
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 390
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 684
+
+2009-11-3 17:55:57
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 812
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 552
+
+2009-11-3 17:55:57
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 264
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 202
+
+2009-11-3 18:04:36
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 390
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 684
+
+2009-11-3 18:04:36
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 812
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 552
+
+2009-11-3 18:04:36
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 264
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 202
+
+2009-11-3 18:04:36
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 390
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 684
+
+2009-11-3 18:04:36
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 812
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 552
+
+2009-11-3 18:04:36
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 264
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 202
+
+2009-11-3 18:06:05
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 390
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 684
+
+2009-11-3 18:06:05
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 812
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 552
+
+2009-11-3 18:06:05
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 264
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 202
+
+2009-11-3 18:06:05
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 390
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 684
+
+2009-11-3 18:06:05
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 812
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 552
+
+2009-11-3 18:06:05
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 264
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 202
+
+2009-11-3 18:17:37
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 390
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 684
+
+2009-11-3 18:17:37
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 812
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 552
+
+2009-11-3 18:17:37
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 264
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 202
+
+2009-11-3 18:17:37
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 390
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 684
+
+2009-11-3 18:17:37
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 812
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 552
+
+2009-11-3 18:17:37
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 264
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 202
+
+2009-11-3 18:23:23
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 390
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 684
+
+2009-11-3 18:23:23
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 812
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 552
+
+2009-11-3 18:23:23
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 264
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 202
+
+2009-11-3 18:23:23
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 390
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 684
+
+2009-11-3 18:23:23
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 812
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 552
+
+2009-11-3 18:23:23
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 264
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 202
+
+2009-11-3 18:31:04
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 390
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 684
+
+2009-11-3 18:31:04
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 812
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 552
+
+2009-11-3 18:31:04
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 264
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 202
+
+2009-11-3 18:31:06
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 390
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.GetAllLegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 684
+
+2009-11-3 18:31:06
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 812
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAllvw_LegsByDay(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 552
+
+2009-11-3 18:31:06
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorDA\ChangeRecordDAF.cs:行号 264
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastvw_FlightChangeRecord(D错误函数：eTimeBM d错误函数：eTimeBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitorBF\ChangeRecordBF.cs:行号 202
+

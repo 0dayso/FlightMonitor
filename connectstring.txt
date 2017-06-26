@@ -1,0 +1,1 @@
+Server=TestForDMC;Database=dbFlightMonitor;Uid=sa;Pwd=hnas_95071000;

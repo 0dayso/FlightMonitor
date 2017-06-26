@@ -1,0 +1,63 @@
+2008-9-3 10:46:45
+操作数据库错误：违反了 PRIMARY KEY 约束 'PK_tbFlightDispInfo'。不能在对象 'dbo.tbFlightDispInfo' 中插入重复键。
+语句已终止。
+出错存储过程名称：sp_dbFlightMonitor_Ins
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.Insert(ChangeLegsBM changeLegsBM, ChangeRecordBM changeRecordBM) 位置 F:\航站保障系统\14代码实现\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 67
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.Insert(ChangeLegsBM changeLegsBM) 位置 F:\航站保障系统\14代码实现\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 489
+
+2008-9-3 10:46:54
+操作数据库错误：违反了 PRIMARY KEY 约束 'PK_tbFlightDispInfo'。不能在对象 'dbo.tbFlightDispInfo' 中插入重复键。
+语句已终止。
+出错存储过程名称：sp_dbFlightMonitor_Ins
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.Insert(ChangeLegsBM changeLegsBM, ChangeRecordBM changeRecordBM) 位置 F:\航站保障系统\14代码实现\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 67
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.Insert(ChangeLegsBM changeLegsBM) 位置 F:\航站保障系统\14代码实现\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 489
+
+2008-9-3 10:47:19
+操作数据库错误：违反了 PRIMARY KEY 约束 'PK_tbFlightDispInfo'。不能在对象 'dbo.tbFlightDispInfo' 中插入重复键。
+语句已终止。
+出错存储过程名称：sp_dbFlightMonitor_Ins
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.Insert(ChangeLegsBM changeLegsBM, ChangeRecordBM changeRecordBM) 位置 F:\航站保障系统\14代码实现\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 67
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.Insert(ChangeLegsBM changeLegsBM) 位置 F:\航站保障系统\14代码实现\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 489
+
+2008-9-3 10:47:28
+操作数据库错误：违反了 PRIMARY KEY 约束 'PK_tbFlightDispInfo'。不能在对象 'dbo.tbFlightDispInfo' 中插入重复键。
+语句已终止。
+出错存储过程名称：sp_dbFlightMonitor_Ins
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.Insert(ChangeLegsBM changeLegsBM, ChangeRecordBM changeRecordBM) 位置 F:\航站保障系统\14代码实现\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 67
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.Insert(ChangeLegsBM changeLegsBM) 位置 F:\航站保障系统\14代码实现\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 489
+
+2008-9-3 10:47:28
+操作数据库错误：违反了 PRIMARY KEY 约束 'PK_tbFlightDispInfo'。不能在对象 'dbo.tbFlightDispInfo' 中插入重复键。
+语句已终止。
+出错存储过程名称：sp_dbFlightMonitor_Ins
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.Insert(ChangeLegsBM changeLegsBM, ChangeRecordBM changeRecordBM) 位置 F:\航站保障系统\14代码实现\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 67
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.Insert(ChangeLegsBM changeLegsBM) 位置 F:\航站保障系统\14代码实现\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 489
+
+2008-9-3 10:47:28
+操作数据库错误：违反了 PRIMARY KEY 约束 'PK_tbFlightDispInfo'。不能在对象 'dbo.tbFlightDispInfo' 中插入重复键。
+语句已终止。
+出错存储过程名称：sp_dbFlightMonitor_Ins
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.Insert(ChangeLegsBM changeLegsBM, ChangeRecordBM changeRecordBM) 位置 F:\航站保障系统\14代码实现\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 67
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.Insert(ChangeLegsBM changeLegsBM) 位置 F:\航站保障系统\14代码实现\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 489
+
+2008-9-3 10:47:28
+操作数据库错误：违反了 PRIMARY KEY 约束 'PK_tbFlightDispInfo'。不能在对象 'dbo.tbFlightDispInfo' 中插入重复键。
+语句已终止。
+出错存储过程名称：sp_dbFlightMonitor_Ins
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.Insert(ChangeLegsBM changeLegsBM, ChangeRecordBM changeRecordBM) 位置 F:\航站保障系统\14代码实现\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 67
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.Insert(ChangeLegsBM changeLegsBM) 位置 F:\航站保障系统\14代码实现\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 489
+
+2008-9-3 10:47:28
+操作数据库错误：违反了 PRIMARY KEY 约束 'PK_tbFlightDispInfo'。不能在对象 'dbo.tbFlightDispInfo' 中插入重复键。
+语句已终止。
+出错存储过程名称：sp_dbFlightMonitor_Ins
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.Insert(ChangeLegsBM changeLegsBM, ChangeRecordBM changeRecordBM) 位置 F:\航站保障系统\14代码实现\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 67
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.Insert(ChangeLegsBM changeLegsBM) 位置 F:\航站保障系统\14代码实现\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 489
+
+2008-9-3 10:52:08
+操作数据库错误：违反了 PRIMARY KEY 约束 'PK_tbFlightDispInfo'。不能在对象 'dbo.tbFlightDispInfo' 中插入重复键。
+语句已终止。
+出错存储过程名称：sp_dbFlightMonitor_Ins
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeLegsDAF.Insert(ChangeLegsBM changeLegsBM, ChangeRecordBM changeRecordBM) 位置 F:\航站保障系统\14代码实现\FlightMonitor\FlightMonitorDA\ChangeLegsDAF.cs:行号 67
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeLegsBF.Insert(ChangeLegsBM changeLegsBM) 位置 F:\航站保障系统\14代码实现\FlightMonitor\FlightMonitorBF\ChangeLegsBF.cs:行号 489
+

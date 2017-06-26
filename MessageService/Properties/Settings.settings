@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MessageService.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="MessageService_OMPWebReference_FlightMonitorData" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://10.2.104.13/OMP/FlightMonitorData.asmx</Value>
+    </Setting>
+    <Setting Name="MessageService_PaxService_PaxService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://10.2.104.16/NewPaxService/PaxService.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

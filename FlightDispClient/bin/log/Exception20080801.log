@@ -1,0 +1,10 @@
+2008-8-1 15:06:18
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.AccountDAF.GetAccountByUserId(Str
+程序位置：g strUserId) 位置 F:\航站保障系统\14代码实现\FlightMonitor\FlightMonitorDA\AccountDAF.cs:行号 256
+   在 AirSoft.FlightMonitor.FlightMonitorBR.AccountBR.LogOn(AccountBM accountBM) 位置 F:\航站保障系统\14代码实现\FlightMonitor\FlightMonitorBR\AccountBR.cs:行号 41
+   在 AirSoft.FlightMonitor.FlightMonitorBF.AccountBF.LogOn(AccountBM accountBM) 位置 F:\航站保障系统\14代码实现\FlightMonitor\FlightMonitorBF\AccountBF.cs:行号 209
+

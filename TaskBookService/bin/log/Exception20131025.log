@@ -1,0 +1,24 @@
+2013-10-25 16:37:33
+业务逻辑处理错误：通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+   在 System.Net.Sockets.Socket.DoB
+程序位置：d(EndPo
+程序位置：t endPo
+程序位置：tSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.B
+程序位置：d(EndPo
+程序位置：t localEP)
+   在 System.Net.Sockets.TcpListener.Start(Int32 backlog)
+   在 System.Net.Sockets.TcpListener.Start()
+   在 System.Runtime.Remot
+程序位置：g.Channels.ExclusiveTcpListener.Start(Boolean exclusiveAddressUse)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpServerChannel.StartListen
+程序位置：g(Object d错误函数：a)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpServerChannel.SetupChannel()
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpServerChannel..ctor(Int32 port)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpChannel..ctor(Int32 port)
+   在 AirSoft.FlightMonitor.FlightMonitorBF.TaskBookServiceBF.RegisterChannel() 位置 E:\SVN\FlightMonitor_Code\FlightMonitorBF\TaskBookServiceBF.cs:行号 47
+

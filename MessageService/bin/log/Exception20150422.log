@@ -1,0 +1,110 @@
+2015-4-22 11:57:10
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastRecord(Str
+程序位置：g UserID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\ChangeRecordDAF.cs:行号 285
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastRecord(Str
+程序位置：g UserID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\ChangeRecordBF.cs:行号 349
+
+2015-4-22 14:14:27
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastRecord(Str
+程序位置：g UserID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\ChangeRecordDAF.cs:行号 285
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastRecord(Str
+程序位置：g UserID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\ChangeRecordBF.cs:行号 349
+
+2015-4-22 14:16:39
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastRecord(Str
+程序位置：g UserID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\ChangeRecordDAF.cs:行号 285
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastRecord(Str
+程序位置：g UserID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\ChangeRecordBF.cs:行号 349
+
+2015-4-22 14:20:47
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastRecord(Str
+程序位置：g UserID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\ChangeRecordDAF.cs:行号 285
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastRecord(Str
+程序位置：g UserID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\ChangeRecordBF.cs:行号 349
+
+2015-4-22 14:29:21
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastRecord(Str
+程序位置：g UserID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\ChangeRecordDAF.cs:行号 285
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastRecord(Str
+程序位置：g UserID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\ChangeRecordBF.cs:行号 349
+
+2015-4-22 15:08:16
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastRecord(Str
+程序位置：g UserID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\ChangeRecordDAF.cs:行号 285
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastRecord(Str
+程序位置：g UserID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\ChangeRecordBF.cs:行号 349
+
+2015-4-22 15:16:01
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key, Int32 iConfigFile)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastRecord(Str
+程序位置：g UserID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\ChangeRecordDAF.cs:行号 285
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastRecord(Str
+程序位置：g UserID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\ChangeRecordBF.cs:行号 349
+
+2015-4-22 15:18:17
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastRecord(Str
+程序位置：g UserID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\ChangeRecordDAF.cs:行号 296
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastRecord(Str
+程序位置：g UserID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\ChangeRecordBF.cs:行号 349
+
+2015-4-22 15:20:43
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastRecord(Str
+程序位置：g UserID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\ChangeRecordDAF.cs:行号 296
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastRecord(Str
+程序位置：g UserID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\ChangeRecordBF.cs:行号 349
+
+2015-4-22 15:23:37
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastRecord(Str
+程序位置：g UserID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\ChangeRecordDAF.cs:行号 296
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastRecord(Str
+程序位置：g UserID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\ChangeRecordBF.cs:行号 349
+
+2015-4-22 15:27:57
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastRecord(Str
+程序位置：g UserID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\ChangeRecordDAF.cs:行号 296
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastRecord(Str
+程序位置：g UserID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\ChangeRecordBF.cs:行号 349
+
+2015-4-22 16:08:13
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose()
+   在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastRecord(Str
+程序位置：g UserID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\ChangeRecordDAF.cs:行号 296
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastRecord(Str
+程序位置：g UserID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\ChangeRecordBF.cs:行号 349
+

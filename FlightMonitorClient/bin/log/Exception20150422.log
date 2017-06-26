@@ -1,0 +1,19 @@
+2015-4-22 17:02:34
+操作数据库错误：')' 附近有语法错误。
+在 AirSoft.FlightMonitor.FlightMonitorDA.D错误函数：aItemPurviewDAF.GetVisibleD错误函数：aItem(AccountBM accountBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\D错误函数：aItemPurviewDAF.cs:行号 323
+   在 AirSoft.FlightMonitor.FlightMonitorBF.D错误函数：aItemPurviewBF.GetVisibleD错误函数：aItem(AccountBM accountBM) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\D错误函数：aItemPurviewBF.cs:行号 307
+
+2015-4-22 15:32:40
+操作数据库错误：必须声明标量变量 "@PARM_cniRecordNo"。
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastRecord(Str
+程序位置：g UserID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\ChangeRecordDAF.cs:行号 292
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastRecord(Str
+程序位置：g UserID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\ChangeRecordBF.cs:行号 349
+
+2015-4-22 15:34:29
+操作数据库错误：必须声明标量变量 "@PARM_cniRecordNo"。
+在 AirSoft.FlightMonitor.FlightMonitorDA.ChangeRecordDAF.GetLastRecord(Str
+程序位置：g UserID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\ChangeRecordDAF.cs:行号 292
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ChangeRecordBF.GetLastRecord(Str
+程序位置：g UserID) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\ChangeRecordBF.cs:行号 349
+

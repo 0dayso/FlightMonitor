@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AirSoft.FlightMonitor.FlightMonitorBF.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="AirSoft_FlightMonitor_FlightMonitorBF_CFPWPService_clsWebServiceOfFPLInfo" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://10.2.104.4/net/Webservice/InfoOfFPL.asmx</Value>
+    </Setting>
+    <Setting Name="AirSoft_FlightMonitor_FlightMonitorBF_PublicService_PublicService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://10.2.104.5/publicservice/publicservice.asmx</Value>
+    </Setting>
+    <Setting Name="AirSoft_FlightMonitor_FlightMonitorBF_SimWebService_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://10.2.58.163/SimWebService/Service.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

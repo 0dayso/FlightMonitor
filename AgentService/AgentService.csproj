@@ -1,0 +1,169 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1EDE655B-D251-4C5F-A662-D01B86866BE6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AirSoft.FlightMonitor.AgentService</RootNamespace>
+    <AssemblyName>AirSoft.FlightMonitor.AgentService</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AirSoft.Public.DataHelper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\AirSoft.Public.DataHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="AirSoft.Public.SystemFramework, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\AirSoft.Public.SystemFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AgentServiceFM\fmMDIMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgentServiceFM\fmMDIMain.Designer.cs">
+      <DependentUpon>fmMDIMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AgentServiceFM\fmMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgentServiceFM\fmMessage.Designer.cs">
+      <DependentUpon>fmMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AgentServiceFM\fmOnLineUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgentServiceFM\fmOnLineUsers.Designer.cs">
+      <DependentUpon>fmOnLineUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AgentServiceFM\fmProcAnalysis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgentServiceFM\fmProcAnalysis.Designer.cs">
+      <DependentUpon>fmProcAnalysis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AgentServiceFM\fmProcRecords.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgentServiceFM\fmProcRecords.Designer.cs">
+      <DependentUpon>fmProcRecords.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AgentServiceFM\fmVersion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgentServiceFM\fmVersion.Designer.cs">
+      <DependentUpon>fmVersion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AgentServiceFM\fmMDIMain.resx">
+      <DependentUpon>fmMDIMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgentServiceFM\fmMessage.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgentServiceFM\fmOnLineUsers.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmOnLineUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgentServiceFM\fmProcAnalysis.resx">
+      <DependentUpon>fmProcAnalysis.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgentServiceFM\fmProcRecords.resx">
+      <DependentUpon>fmProcRecords.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AgentServiceFM\fmVersion.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fmVersion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FlightMonitorBF\FlightMonitorBF.csproj">
+      <Project>{0EFC225A-B697-44D2-B1AE-F857FC91784D}</Project>
+      <Name>FlightMonitorBF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FlightMonitorBM\FlightMonitorBM.csproj">
+      <Project>{EF706B9B-7B15-48D9-9A8B-3082D41B6579}</Project>
+      <Name>FlightMonitorBM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FlightMonitorDA\FlightMonitorDA.csproj">
+      <Project>{15267F1B-4788-4306-9993-CC6B731F8013}</Project>
+      <Name>FlightMonitorDA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PublicService\PublicService.csproj">
+      <Project>{BB1E7232-B691-4370-BD83-E0A5E44083E5}</Project>
+      <Name>PublicService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SharpZipLib\SharpZipLib.csproj">
+      <Project>{414EA02E-4AB5-4380-A300-F6C8ED911176}</Project>
+      <Name>SharpZipLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AgentServiceBF\" />
+    <Folder Include="AgentServiceBM\" />
+    <Folder Include="AgentServiceDA\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

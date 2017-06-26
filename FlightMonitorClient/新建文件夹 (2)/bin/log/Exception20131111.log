@@ -1,0 +1,28 @@
+2013-11-11 10:20:34
+业务逻辑处理错误：服务器遇到内部错误。有关更多信息，请关闭服务器的 .config 文件中的 customErrors。
+
+Server stack trace: 
+
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.TaskBookServiceDAF.GetVoyageReportD错误函数：aByS
+程序位置：gleFlight_In(Str
+程序位置：g DATOP, Str
+程序位置：g FLTIDS, Str
+程序位置：g AC, Str
+程序位置：g ROUTES, Str
+程序位置：g STD, Str
+程序位置：g STA)
+   在 AirSoft.FlightMonitor.FlightMonitorBF.TaskBookServiceBF.GetVoyageReportD错误函数：aByS
+程序位置：gleFlight_In(Str
+程序位置：g DATOP, Str
+程序位置：g FLTIDS, Str
+程序位置：g AC, Str
+程序位置：g ROUTES, Str
+程序位置：g STD, Str
+程序位置：g STA) 位置 D:\FlightMonitor\FlightMonitor_SVN\FlightMonitor_Code\FlightMonitor_Code\FlightMonitorBF\TaskBookServiceBF.cs:行号 394
+

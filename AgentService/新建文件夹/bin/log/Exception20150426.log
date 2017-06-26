@@ -1,0 +1,35 @@
+2015-4-26 2:48:12
+业务逻辑处理错误：您的主机中的软件放弃了一个已建立的连接。
+
+Server stack trace: 
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketHandler.ReadFromSocket(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketHandler.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.Runtime.Remot
+程序位置：g.Channels.SocketHandler.ReadAndM错误函数：chFourBytes(Byte[] buffer)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpSocketHandler.ReadAndM错误函数：chPreamble()
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpSocketHandler.ReadVersionAndOper错误函数：ion(UInt16& oper错误函数：ion)
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientSocketHandler.ReadHeaders()
+   在 System.Runtime.Remot
+程序位置：g.Channels.Tcp.TcpClientTransportS
+程序位置：k.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders& responseHeaders, Stream& responseStream)
+   在 System.Runtime.Remot
+程序位置：g.Channels.B
+程序位置：aryClientForm错误函数：terS
+程序位置：k.SyncProcessMessage(IMessage msg)
+
+Exception rethrown 错误函数： [0]: 
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remot
+程序位置：g.Proxies.RealProxy.Priv错误函数：eInvoke(MessageD错误函数：a& msgD错误函数：a, Int32 type)
+   在 AirSoft.FlightMonitor.AgentServiceDA.AgentServiceDAF.Getvw_Legs()
+   在 AirSoft.FlightMonitor.AgentServiceBF.AgentServiceBF.Getvw_Legs() 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\AgentServiceBF.cs:行号 889
+

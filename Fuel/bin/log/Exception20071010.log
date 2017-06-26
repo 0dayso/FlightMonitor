@@ -1,0 +1,98 @@
+2007-10-10 11:33:30
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose() 位置 D:\workspace\14代码实现\Public\D错误函数：aHelper\SqlD错误函数：abase.cs:行号 87
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetLegsByFlightD错误函数：e(Str
+程序位置：g strFlightD错误函数：e) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 798
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetLegsByFlightD错误函数：e(Str
+程序位置：g strFlightD错误函数：e) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 523
+
+2007-10-10 11:33:49
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose() 位置 D:\workspace\14代码实现\Public\D错误函数：aHelper\SqlD错误函数：abase.cs:行号 87
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetLegsByFlightD错误函数：e(Str
+程序位置：g strFlightD错误函数：e) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 798
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetLegsByFlightD错误函数：e(Str
+程序位置：g strFlightD错误函数：e) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 523
+
+2007-10-10 11:34:53
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose() 位置 D:\workspace\14代码实现\Public\D错误函数：aHelper\SqlD错误函数：abase.cs:行号 87
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetLegsByFlightD错误函数：e(Str
+程序位置：g strFlightD错误函数：e) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 798
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetLegsByFlightD错误函数：e(Str
+程序位置：g strFlightD错误函数：e) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 523
+
+2007-10-10 11:34:58
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose() 位置 D:\workspace\14代码实现\Public\D错误函数：aHelper\SqlD错误函数：abase.cs:行号 87
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetLegsByFlightD错误函数：e(Str
+程序位置：g strFlightD错误函数：e) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 798
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetLegsByFlightD错误函数：e(Str
+程序位置：g strFlightD错误函数：e) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 523
+
+2007-10-10 11:36:25
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose() 位置 D:\workspace\14代码实现\Public\D错误函数：aHelper\SqlD错误函数：abase.cs:行号 87
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetLegsByFlightD错误函数：e(Str
+程序位置：g strFlightD错误函数：e) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 798
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetLegsByFlightD错误函数：e(Str
+程序位置：g strFlightD错误函数：e) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 523
+
+2007-10-10 11:36:52
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose() 位置 D:\workspace\14代码实现\Public\D错误函数：aHelper\SqlD错误函数：abase.cs:行号 87
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetLegsByFlightD错误函数：e(Str
+程序位置：g strFlightD错误函数：e) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 798
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetLegsByFlightD错误函数：e(Str
+程序位置：g strFlightD错误函数：e) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 523
+
+2007-10-10 11:37:16
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose() 位置 D:\workspace\14代码实现\Public\D错误函数：aHelper\SqlD错误函数：abase.cs:行号 87
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetLegsByFlightD错误函数：e(Str
+程序位置：g strFlightD错误函数：e) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 798
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetLegsByFlightD错误函数：e(Str
+程序位置：g strFlightD错误函数：e) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 523
+
+2007-10-10 11:38:17
+业务逻辑处理错误：未将对象引用设置到对象的实例。
+   在 AirSoft.Public.D错误函数：aHelper.SqlD错误函数：abase.ConnClose() 位置 D:\workspace\14代码实现\Public\D错误函数：aHelper\SqlD错误函数：abase.cs:行号 87
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetLegsByFlightD错误函数：e(Str
+程序位置：g strFlightD错误函数：e) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 798
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetLegsByFlightD错误函数：e(Str
+程序位置：g strFlightD错误函数：e) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 523
+
+2007-10-10 11:48:16
+操作数据库错误：列名 'cndtRcdDate' 无效。
+在 AirSoft.FlightMonitor.FlightMonitorDA.ComputerPlanDAF.GetCFPByFlightD错误函数：e(Str
+程序位置：g strD错误函数：e) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\ComputerPlanDAF.cs:行号 82
+   在 AirSoft.FlightMonitor.FlightMonitorBF.ComputerPlanBF.GetCFPByFlightD错误函数：e(Str
+程序位置：g strD错误函数：e) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\ComputerPlanBF.cs:行号 61
+
+2007-10-10 15:06:30
+操作数据库错误：'<' 附近有语法错误。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetLegsByFlightD错误函数：e(Str
+程序位置：g strStartFlightD错误函数：e, Str
+程序位置：g strEndFlightD错误函数：e) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 794
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetLegsByFlightD错误函数：e(Str
+程序位置：g strStartFlightD错误函数：e, Str
+程序位置：g strEndFlightD错误函数：e) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 523
+
+2007-10-10 15:08:37
+操作数据库错误：'<' 附近有语法错误。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetLegsByFlightD错误函数：e(Str
+程序位置：g strStartFlightD错误函数：e, Str
+程序位置：g strEndFlightD错误函数：e) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 794
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetLegsByFlightD错误函数：e(Str
+程序位置：g strStartFlightD错误函数：e, Str
+程序位置：g strEndFlightD错误函数：e) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 523
+
+2007-10-10 15:10:46
+操作数据库错误：'<' 附近有语法错误。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetLegsByFlightD错误函数：e(Str
+程序位置：g strStartFlightD错误函数：e, Str
+程序位置：g strEndFlightD错误函数：e) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 794
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetLegsByFlightD错误函数：e(Str
+程序位置：g strStartFlightD错误函数：e, Str
+程序位置：g strEndFlightD错误函数：e) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 523
+

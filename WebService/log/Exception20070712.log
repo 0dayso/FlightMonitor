@@ -1,0 +1,36 @@
+2007-7-12 14:15:01
+操作数据库错误：过程 'FeiXingYuanQianDao1' 需要参数 '@ChaXunShiJian'，但未提供该参数。
+出错存储过程名称：FeiXingYuanQianDao1
+在 AirSoft.FlightMonitor.FlightMonitorDA.CrewSignInDAF.GetCrewSignIn(Str
+程序位置：g strQueryTime, Str
+程序位置：g strFlightNo, Str
+程序位置：g strDEPSTN) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\CrewSignInDAF.cs:行号 49
+   在 AirSoft.FlightMonitor.FlightMonitorBF.CrewSignInBF.GetCrewSignIn(Str
+程序位置：g strQueryTime, Str
+程序位置：g strFlightNo, Str
+程序位置：g strDEPSTN) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\CrewSignInBF.cs:行号 31
+
+2007-7-12 14:16:51
+操作数据库错误：过程 'FeiXingYuanQianDao1' 需要参数 '@ChaXunShiJian'，但未提供该参数。
+出错存储过程名称：FeiXingYuanQianDao1
+在 AirSoft.FlightMonitor.FlightMonitorDA.CrewSignInDAF.GetCrewSignIn(Str
+程序位置：g strQueryTime, Str
+程序位置：g strFlightNo, Str
+程序位置：g strDEPSTN) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\CrewSignInDAF.cs:行号 49
+   在 AirSoft.FlightMonitor.FlightMonitorBF.CrewSignInBF.GetCrewSignIn(Str
+程序位置：g strQueryTime, Str
+程序位置：g strFlightNo, Str
+程序位置：g strDEPSTN) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\CrewSignInBF.cs:行号 31
+
+2007-7-12 14:17:06
+操作数据库错误：过程 'FeiXingYuanQianDao1' 需要参数 '@ChaXunShiJian'，但未提供该参数。
+出错存储过程名称：FeiXingYuanQianDao1
+在 AirSoft.FlightMonitor.FlightMonitorDA.CrewSignInDAF.GetCrewSignIn(Str
+程序位置：g strQueryTime, Str
+程序位置：g strFlightNo, Str
+程序位置：g strDEPSTN) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\CrewSignInDAF.cs:行号 49
+   在 AirSoft.FlightMonitor.FlightMonitorBF.CrewSignInBF.GetCrewSignIn(Str
+程序位置：g strQueryTime, Str
+程序位置：g strFlightNo, Str
+程序位置：g strDEPSTN) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\CrewSignInBF.cs:行号 31
+

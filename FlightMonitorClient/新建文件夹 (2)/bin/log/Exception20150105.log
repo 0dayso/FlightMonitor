@@ -1,0 +1,7 @@
+2015-1-5 14:05:27
+操作数据库错误：列名 'cnvcAirportName' 无效。
+在 AirSoft.FlightMonitor.FlightMonitorDA.G错误函数：eInfoDAF.GetList(Str
+程序位置：g St错误函数：ionThreeCode) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorDA\G错误函数：eInfoDAF.cs:行号 41
+   在 AirSoft.FlightMonitor.FlightMonitorBF.G错误函数：eInfoBF.GetList(Str
+程序位置：g St错误函数：ionThreeCode) 位置 E:\我的主页\net\FlightMonitor\FlightMonitor（三期）\FlightMonitor_Code\FlightMonitorBF\G错误函数：eInfoBF.cs:行号 45
+

@@ -1,0 +1,10 @@
+2007-6-24 14:48:58
+业务逻辑处理错误：无法找到表 0。
+   在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetEndFlight(D错误函数：eTimeBM endD错误函数：eTimeBM, D错误函数：eTimeBM startD错误函数：eTime) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 410
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetEndFlight(D错误函数：eTimeBM endD错误函数：eTimeBM, D错误函数：eTimeBM startD错误函数：eTime) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 342
+
+2007-6-24 15:04:50
+操作数据库错误：列名 'cncDETSTN' 无效。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetEndFlight(D错误函数：eTimeBM endD错误函数：eTimeBM, D错误函数：eTimeBM startD错误函数：eTime, AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 410
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetEndFlight(D错误函数：eTimeBM endD错误函数：eTimeBM, D错误函数：eTimeBM startD错误函数：eTime, AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 342
+

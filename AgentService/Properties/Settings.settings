@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AirSoft.FlightMonitor.AgentService.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="AirSoft_FlightMonitor_FlightMonitorClient_PaxService_PaxService" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://10.2.104.16/PaxService/PaxService.asmx</Value>
+    </Setting>
+    <Setting Name="AirSoft_FlightMonitor_FlightMonitorClient_FocService_FleetWatch" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://10.2.104.13/FocService/FocService.asmx</Value>
+    </Setting>
+    <Setting Name="AirSoft_FlightMonitor_FlightMonitorClient_FlightService_Service" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://10.2.104.14/FlightMonitor/Service.asmx</Value>
+    </Setting>
+    <Setting Name="AirSoft_FlightMonitor_FlightMonitorClient_PublicService_PublicService" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://10.2.104.5/publicservice/publicservice.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

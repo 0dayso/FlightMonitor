@@ -1,0 +1,12 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\AirSoft.FlightMonitor.FlightMonitorBR.dll
+bin\Debug\AirSoft.FlightMonitor.FlightMonitorBR.pdb
+bin\Debug\AirSoft.FlightMonitor.FlightMonitorBM.dll
+bin\Debug\AirSoft.FlightMonitor.FlightMonitorDA.dll
+bin\Debug\AirSoft.Public.SystemFramework.dll
+bin\Debug\AirSoft.FlightMonitor.FlightMonitorDA.pdb
+bin\Debug\AirSoft.FlightMonitor.FlightMonitorBM.pdb
+obj\Debug\AirSoft.FlightMonitor.FlightMonitorBR.dll
+obj\Debug\AirSoft.FlightMonitor.FlightMonitorBR.pdb
+bin\Debug\AirSoft.Public.DataHelper.dll
+bin\Debug\AirSoft.FlightMonitor.FlightMonitorBR.dll.config

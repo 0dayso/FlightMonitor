@@ -1,0 +1,64 @@
+2007-6-26 14:03:50
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.AccountDAF.GetAccountByUserId(Str
+程序位置：g strUserId) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\AccountDAF.cs:行号 245
+   在 AirSoft.FlightMonitor.FlightMonitorBR.AccountBR.LogOn(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBR\AccountBR.cs:行号 40
+   在 AirSoft.FlightMonitor.FlightMonitorBF.AccountBF.LogOn(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\AccountBF.cs:行号 199
+
+2007-6-26 14:03:54
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.AccountDAF.GetAccountByUserId(Str
+程序位置：g strUserId) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\AccountDAF.cs:行号 245
+   在 AirSoft.FlightMonitor.FlightMonitorBR.AccountBR.LogOn(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBR\AccountBR.cs:行号 40
+   在 AirSoft.FlightMonitor.FlightMonitorBF.AccountBF.LogOn(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\AccountBF.cs:行号 199
+
+2007-6-26 14:04:03
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.AccountDAF.GetAccountByUserId(Str
+程序位置：g strUserId) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\AccountDAF.cs:行号 245
+   在 AirSoft.FlightMonitor.FlightMonitorBR.AccountBR.LogOn(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBR\AccountBR.cs:行号 40
+   在 AirSoft.FlightMonitor.FlightMonitorBF.AccountBF.LogOn(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\AccountBF.cs:行号 199
+
+2007-6-26 14:04:44
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.AccountDAF.GetAccountByUserId(Str
+程序位置：g strUserId) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\AccountDAF.cs:行号 245
+   在 AirSoft.FlightMonitor.FlightMonitorBR.AccountBR.LogOn(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBR\AccountBR.cs:行号 40
+   在 AirSoft.FlightMonitor.FlightMonitorBF.AccountBF.LogOn(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\AccountBF.cs:行号 199
+
+2007-6-26 14:04:49
+业务逻辑处理错误：“AirSoft.Public.SystemFramework.ConfigManagerSF”的类型初始值设定项引发异常。
+   在 AirSoft.Public.SystemFramework.ConfigManagerSF.GetConfigStr
+程序位置：g(Str
+程序位置：g key)
+   在 AirSoft.FlightMonitor.FlightMonitorDA.AccountDAF.GetAccountByUserId(Str
+程序位置：g strUserId) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\AccountDAF.cs:行号 245
+   在 AirSoft.FlightMonitor.FlightMonitorBR.AccountBR.LogOn(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBR\AccountBR.cs:行号 40
+   在 AirSoft.FlightMonitor.FlightMonitorBF.AccountBF.LogOn(AccountBM accountBM) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\AccountBF.cs:行号 199
+
+2007-6-26 17:00:35
+操作数据库错误：'SUBSTRING' 附近有语法错误。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAircraftFlights(D错误函数：eTimeBM d错误函数：eTimeBM, Str
+程序位置：g strLONG_REG) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 441
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAircraftFlights(D错误函数：eTimeBM d错误函数：eTimeBM, Str
+程序位置：g strLONG_REG) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 368
+
+2007-6-26 17:00:35
+操作数据库错误：'SUBSTRING' 附近有语法错误。
+在 AirSoft.FlightMonitor.FlightMonitorDA.GuaranteeInforDAF.GetAircraftFlights(D错误函数：eTimeBM d错误函数：eTimeBM, Str
+程序位置：g strLONG_REG) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorDA\GuaranteeInforDAF.cs:行号 441
+   在 AirSoft.FlightMonitor.FlightMonitorBF.GuaranteeInforBF.GetAircraftFlights(D错误函数：eTimeBM d错误函数：eTimeBM, Str
+程序位置：g strLONG_REG) 位置 D:\workspace\14代码实现\FlightMonitor\FlightMonitorBF\GuaranteeInforBF.cs:行号 368
+
